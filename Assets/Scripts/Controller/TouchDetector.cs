@@ -7,7 +7,8 @@ public class TouchDetector : MonoBehaviour
 {
     private Player player;
 
-    private Vector2 start, distance; // dis is distance
+    private Vector2 start = new Vector2(9999, 9999);
+    private Vector2 distance = Vector2.zero; // dis is distance
 
     public readonly float minMagnitude = 0.5f;
     public readonly float maxMagnitude = 2f;
@@ -51,6 +52,8 @@ public class TouchDetector : MonoBehaviour
             }
             else if (touch.phase == TouchPhase.Moved)
             {
+                if (start.Equals(new Vector2(9999, 9999))) return;
+
                 Vector2 end = Input.touches[0].position;
                 distance = GetWorldDistance(start, end);
 
@@ -60,12 +63,12 @@ public class TouchDetector : MonoBehaviour
             }
             else if (touch.phase == TouchPhase.Stationary)
             {
-                if (!distance.Equals(Vector2.zero))
-                {
-                    jump = player.GenerateJump(distance);
+                if (distance.Equals(Vector2.zero)) return;
 
-                    RenderCurve();
-                }
+                Debug.Log("Station");
+                jump = player.GenerateJump(distance);
+
+                RenderCurve();
             }
             else if (touch.phase == TouchPhase.Ended)
             {
@@ -95,6 +98,7 @@ public class TouchDetector : MonoBehaviour
         cr.SetOff();
         ar.SetOff();
         jump = null;
+        start = new Vector2(9999, 9999);
         distance = Vector2.zero;
     }
 
