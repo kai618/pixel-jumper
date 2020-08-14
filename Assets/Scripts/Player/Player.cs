@@ -16,16 +16,20 @@ public class Player : MonoBehaviour
 
     private Jump jump = null;
 
+    private Vector2 startPos;
+
     void Awake()
     {
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
+        startPos = rb2d.position;
     }
 
     void Update()
     {
         if (!Grounded && !Clinged && rb2d.velocity.Equals(Vector2.zero))
         {
+            Debug.Log(rb2d.velocity);
             SetPlayerGrounded(true);
         }
     }
@@ -241,7 +245,13 @@ public class Player : MonoBehaviour
     {
         SetDead(false);
         gameObject.SetActive(false);
-        GameObject.Find("Game Controller").GetComponent<GameplayController>().ReviveMe(gameObject, new Vector2(5, 11), 1);
+        GameObject.Find("Game Controller").GetComponent<GameplayController>().ReviveMe(gameObject, startPos, 1);
+    }
+
+    public void Appear()
+    {
+        rb2d.velocity = new Vector2(0, -0.5f); // to avoid triggering the code at row 30
+        SetKinematicTrue();
     }
 
     public void SetKinematicTrue()
