@@ -12,30 +12,12 @@ public class GameplayController : MonoBehaviour
 
     private TouchDetector touchDetector;
     private GameObject pauseBtn;
+
     void Awake()
     {
         touchDetector = GameObject.Find("Touch Detector").GetComponent<TouchDetector>();
         pauseBtn = GameObject.Find("Pause Btn");
-    }
-
-    public void ReviveMe(GameObject me, Vector2 pos, float time = 0)
-    {
-        if (time > 0) StartCoroutine(ReviveLater(me, pos, time));
-        else ReviveNow(me, pos);
-    }
-
-
-    private IEnumerator ReviveLater(GameObject me, Vector2 pos, float time)
-    {
-        yield return new WaitForSeconds(time);
-        ReviveNow(me, pos);
-    }
-
-    private void ReviveNow(GameObject me, Vector2 pos)
-    {
-        me.transform.position = pos;
-        me.SetActive(true);
-    }
+    }  
 
     public void PauseGame()
     {

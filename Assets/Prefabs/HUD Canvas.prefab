@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 1113572469}
   - component: {fileID: 1113572468}
   m_Layer: 5
-  m_Name: Number
+  m_Name: Money Sum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 125
+  m_Text: 0
 --- !u!1 &1113957537
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,7 +733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1921297669
 RectTransform:
   m_ObjectHideFlags: 0
@@ -883,7 +883,7 @@ GameObject:
   - component: {fileID: 2142278372}
   - component: {fileID: 2142278371}
   m_Layer: 5
-  m_Name: Number
+  m_Name: Death Count
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -948,7 +948,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 8
+  m_Text: 0
 --- !u!1 &302241326175314530
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,11 +18,15 @@ public class Player : MonoBehaviour
 
     private Vector2 startPos;
 
+    private DeathController deathController;
+
     void Awake()
     {
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         startPos = rb2d.position;
+
+        deathController = GameObject.Find("Game Controller").GetComponent<DeathController>();
     }
 
     void Update()
@@ -228,6 +232,7 @@ public class Player : MonoBehaviour
     {
         if (status)
         {
+            deathController.IncrementPlayerDeath();
             rb2d.velocity = Vector2.zero;
             SetKinematicTrue();
             animator.SetTrigger("Dead");
@@ -245,7 +250,7 @@ public class Player : MonoBehaviour
     {
         SetDead(false);
         gameObject.SetActive(false);
-        GameObject.Find("Game Controller").GetComponent<GameplayController>().ReviveMe(gameObject, startPos, 1);
+        deathController.ReviveMe(gameObject, startPos, 1);
     }
 
     public void Appear()
