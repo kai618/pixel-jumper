@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -25,8 +26,10 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         startPos = rb2d.position;
-
-        deathController = GameObject.Find("Game Controller").GetComponent<DeathController>();
+        if (SceneManager.GetActiveScene().name != "MainMenu")
+        {
+            deathController = GameObject.Find("Game Controller").GetComponent<DeathController>();
+        }
     }
 
     void Update()
