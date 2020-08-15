@@ -232,7 +232,6 @@ public class Player : MonoBehaviour
     {
         if (status)
         {
-            deathController.IncrementPlayerDeath();
             rb2d.velocity = Vector2.zero;
             SetKinematicTrue();
             animator.SetTrigger("Dead");
@@ -250,6 +249,7 @@ public class Player : MonoBehaviour
     {
         SetDead(false);
         gameObject.SetActive(false);
+        deathController.IncrementPlayerDeath();
         deathController.ReviveMe(gameObject, startPos, 1);
     }
 
