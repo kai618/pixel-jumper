@@ -34,13 +34,6 @@ public class TouchDetector : MonoBehaviour
 
     private void CheckUserTouch()
     {
-        if (Input.touches.Length > 1)
-        {
-            foreach (Touch t in Input.touches)
-            {
-                Debug.Log(t + " || " + t.fingerId);
-            }
-        }
         if (Input.touchCount == 1)
         {
             Touch touch = Input.touches[0];
