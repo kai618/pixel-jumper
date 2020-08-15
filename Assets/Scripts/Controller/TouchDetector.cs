@@ -8,7 +8,7 @@ public class TouchDetector : MonoBehaviour
     private Player player;
 
     private Vector2 start = new Vector2(9999, 9999);
-    private Vector2 distance = Vector2.zero; // dis is distance
+    private Vector2 distance = Vector2.zero;
 
     public readonly float minMagnitude = 0.5f;
     public readonly float maxMagnitude = 2f;
@@ -36,7 +36,7 @@ public class TouchDetector : MonoBehaviour
     {
         if (Input.touches.Length > 1)
         {
-            foreach(Touch t in Input.touches)
+            foreach (Touch t in Input.touches)
             {
                 Debug.Log(t + " || " + t.fingerId);
             }
@@ -46,7 +46,7 @@ public class TouchDetector : MonoBehaviour
             Touch touch = Input.touches[0];
             if (touch.phase == TouchPhase.Began)
             {
-                // if this is an Event Object such as pause btn, return
+                // return if the user touches an Event Object such as pause btn
                 if (EventSystem.current.IsPointerOverGameObject(touch.fingerId)) return;
 
                 // using screen point to calculate distance allows independence on the position of player
@@ -65,16 +65,13 @@ public class TouchDetector : MonoBehaviour
                 distance = GetWorldDistance(start, end);
 
                 jump = player.GenerateJump(distance);
-
                 RenderCurve();
             }
             else if (touch.phase == TouchPhase.Stationary)
             {
                 if (distance.Equals(Vector2.zero)) return;
 
-                Debug.Log("Station");
                 jump = player.GenerateJump(distance);
-
                 RenderCurve();
             }
             else if (touch.phase == TouchPhase.Ended)
@@ -93,10 +90,7 @@ public class TouchDetector : MonoBehaviour
 
     private void RenderCurve()
     {
-        if (jump != null)
-        {
-            cr.RenderCurve(jump.velocity);
-        }
+        if (jump != null) cr.RenderCurve(jump.velocity);
         else cr.SetOff();
     }
 
@@ -123,18 +117,6 @@ public class TouchDetector : MonoBehaviour
             distance *= maxMagnitude / distance.magnitude;
         }
         return distance;
-    }
-
-    private bool IsPointerOverUIObject()
-    {
-        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current)
-        {
-            position = new Vector2(Input.mousePosition.x, Input.mousePosition.y)
-        };
-
-        List<RaycastResult> results = new List<RaycastResult>();
-        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
-        return results.Count > 0;
     }
 }
 

@@ -6,8 +6,9 @@ using UnityEngine.UI;
 
 public class GameplayController : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject pausePanel;
+#pragma warning disable 0649
+    [SerializeField] private GameObject pausePanel;
+#pragma warning disable 0649
 
     private TouchDetector touchDetector;
     private GameObject pauseBtn;
