@@ -9,7 +9,8 @@ public class Jump
     public JumpType type { get; private set; }
     public float angle { get; private set; }
 
-    public Jump(Vector2 velocity, float angle, JumpType type)
+    public Jump(Vector2 velocity, float angle,
+    JumpType type)
     {
         this.velocity = velocity;
         this.type = type;

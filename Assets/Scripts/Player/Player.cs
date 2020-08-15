@@ -43,8 +43,6 @@ public class Player : MonoBehaviour
         if (jump != null) Jump();
 
         animator.SetFloat("Velocity Y", rb2d.velocity.y);
-
-
     }
 
     private void Jump()
