@@ -17,7 +17,7 @@ public class GameplayController : MonoBehaviour
     {
         touchDetector = GameObject.Find("Touch Detector").GetComponent<TouchDetector>();
         pauseBtn = GameObject.Find("Pause Btn");
-    }  
+    }
 
     public void PauseGame()
     {
@@ -39,7 +39,7 @@ public class GameplayController : MonoBehaviour
     public void ToMainMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MenuScene");
     }
 
 }

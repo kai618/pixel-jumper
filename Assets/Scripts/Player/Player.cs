@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         startPos = rb2d.position;
 
-        if (SceneManager.GetActiveScene().name != "MainMenu")
+        if (SceneManager.GetActiveScene().name != "MenuScene")
         {
             deathController = GameObject.Find("Game Controller").GetComponent<DeathController>();
         }
