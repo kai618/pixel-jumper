@@ -31,7 +31,6 @@ public class TouchDetector : MonoBehaviour
     {
         CheckUserTouch();
     }
-
     private void CheckUserTouch()
     {
         if (Input.touchCount == 1)
