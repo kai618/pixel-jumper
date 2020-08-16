@@ -7,6 +7,8 @@ public class MainMenuController : MonoBehaviour
 {
 #pragma warning disable 0649
     [SerializeField] private GameObject player;
+    [SerializeField] private GameObject menuPanel;
+    [SerializeField] private GameObject levelPanel;
 #pragma warning disable 0649
 
     private MenuBackground menuBackground;
@@ -25,7 +27,7 @@ public class MainMenuController : MonoBehaviour
 
     private async void AwakePlayer()
     {
-        await Task.Delay(2000);
+        await Task.Delay(500);
         player.SetActive(true);
 
         await Task.Delay(2000);
@@ -47,7 +49,20 @@ public class MainMenuController : MonoBehaviour
         StartCoroutine(MakePlayerJump());
     }
 
-    public void ToLevelChooser() {
+    public void ToLevelPanel()
+    {
+        menuPanel.SetActive(false);
+        levelPanel.SetActive(true);
+    }
+
+    public void ToMenuPanel()
+    {
+        menuPanel.SetActive(true);
+        levelPanel.SetActive(false);
+    }
+
+    public void ToLevel01()
+    {
         SceneManager.LoadScene("HieuTestScene");
     }
 }
