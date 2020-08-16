@@ -82,7 +82,7 @@ public class TouchDetector : MonoBehaviour
 
     private void RenderCurve()
     {
-        if (jump != null) cr.RenderCurve(jump.velocity);
+        if (jump != null) cr.RenderCurve(jump);
         else cr.SetOff();
     }
 

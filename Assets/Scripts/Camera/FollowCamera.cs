@@ -10,7 +10,7 @@ public class FollowCamera : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<Transform>();
     }
 
-    void LateUpdate()
+    void Update()
     {
         Vector3 pos = transform.position;
         pos.x = player.position.x;

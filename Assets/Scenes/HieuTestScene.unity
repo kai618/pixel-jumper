@@ -142,7 +142,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &104604251
 SpriteRenderer:
@@ -231,7 +231,7 @@ GameObject:
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &322704688
 SpriteRenderer:
@@ -317,6 +317,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 936894629914068437, guid: e8cd977e139f42d469ed6a17d33f73d2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -397,6 +402,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 936894629914068437, guid: e8cd977e139f42d469ed6a17d33f73d2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -470,6 +480,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spikes (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359973338982264145, guid: d299d06ea2757fb4e82616e8d7607426,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5359973338982264147, guid: d299d06ea2757fb4e82616e8d7607426,
         type: 3}
@@ -622,10 +637,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1836052198}
     m_Modifications:
+    - target: {fileID: 8323663797508115308, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663797597205593, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663798271219380, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8323663798878851107, guid: dc611b86da4eaa746b7ddd29c128306c,
         type: 3}
       propertyPath: m_Name
       value: Collider Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663798878851107, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8323663798878851116, guid: dc611b86da4eaa746b7ddd29c128306c,
         type: 3}
@@ -692,6 +727,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.2362127
       objectReference: {fileID: 0}
+    - target: {fileID: 8323663799284493941, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc611b86da4eaa746b7ddd29c128306c, type: 3}
 --- !u!4 &743066355 stripped
@@ -711,6 +751,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spikes (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359973338982264145, guid: d299d06ea2757fb4e82616e8d7607426,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5359973338982264147, guid: d299d06ea2757fb4e82616e8d7607426,
         type: 3}
@@ -792,6 +837,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spikes (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359973338982264145, guid: d299d06ea2757fb4e82616e8d7607426,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5359973338982264147, guid: d299d06ea2757fb4e82616e8d7607426,
         type: 3}
@@ -876,7 +926,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &940749647
 Transform:
@@ -914,7 +964,7 @@ GameObject:
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!61 &1000912325
 BoxCollider2D:
@@ -1014,10 +1064,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1390828840}
     m_Modifications:
+    - target: {fileID: 8323663797508115308, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663797597205593, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663798271219380, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8323663798878851107, guid: dc611b86da4eaa746b7ddd29c128306c,
         type: 3}
       propertyPath: m_Name
       value: Collider Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663798878851107, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8323663798878851116, guid: dc611b86da4eaa746b7ddd29c128306c,
         type: 3}
@@ -1084,6 +1154,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.2228688
       objectReference: {fileID: 0}
+    - target: {fileID: 8323663799284493941, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc611b86da4eaa746b7ddd29c128306c, type: 3}
 --- !u!4 &1005980229 stripped
@@ -1103,6 +1178,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 936894629914068437, guid: e8cd977e139f42d469ed6a17d33f73d2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
         type: 3}
@@ -1177,6 +1257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spikes (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359973338982264145, guid: d299d06ea2757fb4e82616e8d7607426,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5359973338982264147, guid: d299d06ea2757fb4e82616e8d7607426,
         type: 3}
@@ -1328,6 +1413,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 936894629914068437, guid: e8cd977e139f42d469ed6a17d33f73d2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1401,6 +1491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 936894629914068437, guid: e8cd977e139f42d469ed6a17d33f73d2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
         type: 3}
@@ -1479,7 +1574,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &1390828839
 SpriteRenderer:
@@ -1561,7 +1656,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1484258829
 Transform:
@@ -1591,10 +1686,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1671006973}
     m_Modifications:
+    - target: {fileID: 8323663797508115308, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663797597205593, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663798271219380, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8323663798878851107, guid: dc611b86da4eaa746b7ddd29c128306c,
         type: 3}
       propertyPath: m_Name
       value: Collider Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663798878851107, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8323663798878851116, guid: dc611b86da4eaa746b7ddd29c128306c,
         type: 3}
@@ -1661,6 +1776,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.2255286
       objectReference: {fileID: 0}
+    - target: {fileID: 8323663799284493941, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc611b86da4eaa746b7ddd29c128306c, type: 3}
 --- !u!4 &1521986886 stripped
@@ -1680,6 +1800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spikes (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359973338982264145, guid: d299d06ea2757fb4e82616e8d7607426,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5359973338982264147, guid: d299d06ea2757fb4e82616e8d7607426,
         type: 3}
@@ -1751,10 +1876,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 104604252}
     m_Modifications:
+    - target: {fileID: 8323663797508115308, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663797597205593, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663798271219380, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8323663798878851107, guid: dc611b86da4eaa746b7ddd29c128306c,
         type: 3}
       propertyPath: m_Name
       value: Collider Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663798878851107, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8323663798878851116, guid: dc611b86da4eaa746b7ddd29c128306c,
         type: 3}
@@ -1821,6 +1966,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.2431924
       objectReference: {fileID: 0}
+    - target: {fileID: 8323663799284493941, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc611b86da4eaa746b7ddd29c128306c, type: 3}
 --- !u!4 &1612592548 stripped
@@ -1844,7 +1994,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &1671006972
 SpriteRenderer:
@@ -1927,7 +2077,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &1836052197
 SpriteRenderer:
@@ -2006,6 +2156,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spikes (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359973338982264145, guid: d299d06ea2757fb4e82616e8d7607426,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5359973338982264147, guid: d299d06ea2757fb4e82616e8d7607426,
         type: 3}
@@ -2102,7 +2257,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2014016091
 Transform:
@@ -2535,6 +2690,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikes
       objectReference: {fileID: 0}
+    - target: {fileID: 5359973338982264145, guid: d299d06ea2757fb4e82616e8d7607426,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5359973338982264147, guid: d299d06ea2757fb4e82616e8d7607426,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2673,10 +2833,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 322704689}
     m_Modifications:
+    - target: {fileID: 8323663797508115308, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663797597205593, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663798271219380, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8323663798878851107, guid: dc611b86da4eaa746b7ddd29c128306c,
         type: 3}
       propertyPath: m_Name
       value: Collider Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663798878851107, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8323663798878851116, guid: dc611b86da4eaa746b7ddd29c128306c,
         type: 3}
@@ -2742,6 +2922,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1.2433364
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323663799284493941, guid: dc611b86da4eaa746b7ddd29c128306c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc611b86da4eaa746b7ddd29c128306c, type: 3}

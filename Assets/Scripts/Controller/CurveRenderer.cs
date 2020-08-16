@@ -11,7 +11,8 @@ public class CurveRenderer : MonoBehaviour
     private float g; // gravity force
 
     private Player player;
-    private Vector3 startPos;
+    private Vector3 originPos;
+    private string ignoreTags = "Player Collectible";
 
     void Awake()
     {
@@ -43,46 +44,50 @@ public class CurveRenderer : MonoBehaviour
 
     private void SetPosition()
     {
-        startPos = player.transform.position;
+        originPos = player.transform.position;
 
         // set the starting point of the curve to the player's legs
-        startPos.y -= 0.5f;
-
-        transform.position = startPos;
+        originPos.y -= 0.5f;
+        transform.position = originPos;
     }
 
-    public void RenderCurve(Vector2 velocity)
+    public void RenderCurve(Jump jump)
     {
         SetOn();
-        Vector3[] posArr = CalculatePositionArray(velocity);
+        Vector3[] posArr = CalculatePositionArray(jump);
         lr.positionCount = posArr.Length;
         lr.SetPositions(posArr);
     }
 
-    private Vector3[] CalculatePositionArray(Vector2 velocity)
+    // Ref:https://en.wikipedia.org/wiki/Projectile_motion
+    private Vector3[] CalculatePositionArray(Jump jump)
     {
-        float v = velocity.magnitude;
-        float t = CalculateAngle(velocity) * Mathf.Deg2Rad;
+        float v = jump.velocity.magnitude;
+        float t = jump.angle * Mathf.Deg2Rad;
 
         List<Vector3> posList = new List<Vector3> { Vector3.zero };
 
         // for vertical jump, x = 0
-        if (t == 90 * Mathf.Deg2Rad)
+        if (jump.type == JumpType.GROUND_VERTICAL)
         {
             float h = v * v / (2 * g);
-            int segment = 6;
-            Vector3 end = new Vector3(0, h);
+            Vector3 hit = new Vector3(0, h);
 
-            for (int i = 0; i < segment; i++)
+            int segmentCount = 6;
+            for (int i = 0; i < segmentCount; i++)
             {
-                Vector3 hitPos = GetHitCollider(startPos + new Vector3(0, h * i / segment), startPos + new Vector3(0, h * (i + 1) / segment));
-                if (hitPos != startPos)
+                Vector3 start = new Vector3(0, h * i / segmentCount);
+                Vector3 end = new Vector3(0, h * (i + 1) / segmentCount);
+
+                Vector3? hitPos = GetRelativeHitPosition(start, end, originPos);
+
+                if (hitPos != null)
                 {
-                    end = hitPos - startPos;
+                    hit = (Vector3)hitPos; // convert to relative position
                     break;
                 }
             }
-            posList.Add(end);
+            posList.Add(hit);
         }
         else
         {
@@ -90,40 +95,49 @@ public class CurveRenderer : MonoBehaviour
             float b = -g / (2 * v * v * Mathf.Cos(t) * Mathf.Cos(t));
 
             // find the end position (hitPos) of the guiding curve
-            Vector3 hitPos = startPos;
-            float x1 = 0.0f, y1;
-            float x2, y2;
-            float diff = (velocity.x > 0) ? segmentWidth : -segmentWidth;
+            Vector3? hitPos = null;
+            float step = GetSuitableStep(jump, segmentWidth);
+            int i = 1;
 
-            // decrease [diff] when the angle is large
-            float ratio = Mathf.Abs((velocity.x / velocity.y));
-            if (ratio < 0.5) diff *= ratio * 1.2f;
-            // or the velocity is too small
-            if (Mathf.Abs(velocity.x) < 10f) diff *= 0.75f;
-            if (v < 10f) diff *= 0.5f;
-
-            while (hitPos == startPos)
+            while (true)
             {
-                y1 = a * x1 + b * x1 * x1;
+                float x2 = i * step;
+                float y2 = a * x2 + b * x2 * x2;
 
-                x2 = x1 + diff;
-                y2 = a * x2 + b * x2 * x2;
+                Vector3 start = posList[i - 1];
+                Vector3 end = new Vector3(x2, y2);
+                hitPos = GetRelativeHitPosition(start, end, originPos);
 
-                // if the curve and a collider2D collides, break
-                hitPos = GetHitCollider(startPos + new Vector3(x1, y1), startPos + new Vector3(x2, y2));
-                posList.Add(new Vector3(x2, y2));
-                x1 += diff;
+                if (hitPos == null) posList.Add(end);
+                else
+                {
+                    posList.Add((Vector3)hitPos);
+                    break;
+                }
+                i++;
             }
         }
-
         return posList.ToArray();
+    }
+
+    private float GetSuitableStep(Jump jump, float segmentWidth)
+    {
+        float step = (jump.velocity.x > 0) ? segmentWidth : -segmentWidth;
+
+        // decrease [step] when the angle is large
+        float ratio = Mathf.Abs((jump.velocity.x / jump.velocity.y));
+        if (ratio < 0.5) step *= ratio * 1.2f;
+        // or the velocity is too small
+        if (Mathf.Abs(jump.velocity.x) < 10f) step *= 0.75f;
+        if (jump.velocity.magnitude < 10f) step *= 0.5f;
+        return step;
     }
 
     public static float CalculateAngle(Vector2 distance)
     {
+        if (distance.x == 0) return 90;
 
-        float angle = (distance.x == 0) ? 90 : Vector2.Angle(distance, new Vector2(distance.x, 0));
-
+        float angle = Vector2.Angle(distance, new Vector2(distance.x, 0));
         if (distance.y >= 0)
         {
             if (distance.x < 0) angle = 180 - angle;
@@ -131,25 +145,19 @@ public class CurveRenderer : MonoBehaviour
         else
         {
             if (distance.x >= 0) angle = -angle;
-            if (distance.x < 0) angle -= 180;
+            else if (distance.x < 0) angle -= 180;
         }
-
         return angle;
     }
 
-    private Vector3 GetHitCollider(Vector2 pos1, Vector2 pos2)
+    private Vector3? GetRelativeHitPosition(Vector2 relativeStart, Vector2 relativeEnd, Vector2 origin)
     {
-        RaycastHit2D hit = Physics2D.Linecast(pos1, pos2);
+        RaycastHit2D hit = Physics2D.Linecast(relativeStart + origin, relativeEnd + origin);
 
-        if (hit.collider == null || hit.collider.tag == "Player")
+        if (hit.collider == null || ignoreTags.Contains(hit.collider.tag))
         {
-            return startPos;
+            return null;
         }
-
-        //string hitTag = hit.collider.tag;
-        //if (!tags.Contains(hitTag)) return startPos;
-        //Debug.Log(hit.collider.tag + " - " + hit.point);
-
-        return hit.point;
+        return hit.point - origin;
     }
 }

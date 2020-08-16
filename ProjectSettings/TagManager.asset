@@ -8,6 +8,7 @@ TagManager:
   - Spike
   - Ground
   - CamEdge
+  - Collectible
   layers:
   - Default
   - TransparentFX
