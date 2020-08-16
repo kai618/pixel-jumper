@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HieuTestScene.unity
-    guid: 03732c1445145474dba01f0b3904c8fe
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 240b5a29ce984c8479ceb06ec1a4a54a
   - enabled: 1
@@ -20,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_02.unity
     guid: 39aff4a1d59fb5c4d81af0b5fdb7995d
+  - enabled: 1
+    path: Assets/Scenes/HieuTestScene.unity
+    guid: 03732c1445145474dba01f0b3904c8fe
   m_configObjects: {}

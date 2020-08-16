@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         startPos = rb2d.position;
+
         if (SceneManager.GetActiveScene().name != "MainMenu")
         {
             deathController = GameObject.Find("Game Controller").GetComponent<DeathController>();
@@ -34,11 +35,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (!Grounded && !Clinged && rb2d.velocity.Equals(Vector2.zero))
-        {
-            Debug.Log(rb2d.velocity);
-            SetPlayerGrounded(true);
-        }
+        CheckFreezeState();
     }
 
     void FixedUpdate()
@@ -46,6 +43,14 @@ public class Player : MonoBehaviour
         if (jump != null) Jump();
 
         animator.SetFloat("Velocity Y", rb2d.velocity.y);
+    }
+
+    private void CheckFreezeState()
+    {
+        if (!Grounded && !Clinged && rb2d.velocity.Equals(Vector2.zero))
+        {
+            SetPlayerGrounded(true);
+        }
     }
 
     private void Jump()
@@ -256,7 +261,7 @@ public class Player : MonoBehaviour
 
     public void Appear()
     {
-        rb2d.velocity = new Vector2(0, -0.5f); // to avoid triggering the code at row 30
+        rb2d.velocity = new Vector2(0, -0.5f); // to avoid FreezeState
         SetKinematicTrue();
     }
 
