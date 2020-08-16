@@ -269,4 +269,10 @@ public class Player : MonoBehaviour
     {
         rb2d.isKinematic = false;
     }
+
+    // for main menu scene
+    public void SetRun(bool status)
+    {
+        animator.SetBool("Run", status);
+    }
 }

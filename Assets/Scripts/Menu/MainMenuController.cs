@@ -1,18 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Threading.Tasks;
 
 public class MainMenuController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+#pragma warning disable 0649
+    [SerializeField] private GameObject player;
+#pragma warning disable 0649
+
+    private MenuBackground menuBackground;
+
+    void Awake()
     {
-        
+        menuBackground = GameObject.Find("Background").GetComponent<MenuBackground>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        
+        AwakePlayer();
+    }
+
+    private async void AwakePlayer()
+    {
+        await Task.Delay(2000);
+        player.SetActive(true);
+
+        await Task.Delay(2000);
+        player.GetComponent<Player>().SetRun(true);
+        menuBackground.rotating = true;
     }
 }

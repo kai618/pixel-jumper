@@ -6,7 +6,7 @@ public class MenuBackground : MonoBehaviour
 {
     private Renderer quad1, quad2, quad3;
 
-    public bool rotating { get; set; } = true;
+    public bool rotating { get; set; } = false;
 
     void Start()
     {
