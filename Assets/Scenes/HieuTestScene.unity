@@ -1399,6 +1399,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Curve Renderer
       objectReference: {fileID: 0}
+    - target: {fileID: 920029155171966277, guid: 32785b714d9670548b28a39846ca7fb5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32785b714d9670548b28a39846ca7fb5, type: 3}
 --- !u!114 &1234272561 stripped
