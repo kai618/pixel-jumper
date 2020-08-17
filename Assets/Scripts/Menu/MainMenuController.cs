@@ -69,7 +69,7 @@ public class MainMenuController : MonoBehaviour
     public void ToShop()
     {
         Debug.Log("Shop");
-        DataController.instance.data.AudioEnabled = false;
-        DataController.instance.Save();
+        GameController.instance.Data.AudioEnabled = false;
+        GameController.instance.PersistData();
     }
 }

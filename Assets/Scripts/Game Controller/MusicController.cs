@@ -20,16 +20,21 @@ public class MusicController : MonoBehaviour
 
     void Start()
     {
-        StartBackgroundMusic();
+        if (GameController.instance.Data.AudioEnabled) StartBackgroundMusic();
     }
 
-    private void StartBackgroundMusic()
+    public void StartBackgroundMusic()
     {
-        if (DataController.instance.data.AudioEnabled)
-        {
-            // TODO:
-            Debug.Log("Playing background music");
-        }
-    }
 
+        // TODO: continue to play from previous play time
+        Debug.Log("Background music started");
+
+    }
+    public void StopBackgroundMusic()
+    {
+
+        // TODO: store play time
+        Debug.Log("Background music stopped");
+
+    }
 }
