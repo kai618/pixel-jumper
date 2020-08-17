@@ -64,7 +64,7 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void TurnAudioOn()
+    public void EnableAudio()
     {
         if (!Data.AudioEnabled)
         {
@@ -74,7 +74,7 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void TurnAudioOff()
+    public void DisableAudio()
     {
         if (Data.AudioEnabled)
         {
