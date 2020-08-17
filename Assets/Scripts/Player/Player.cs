@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name != "MenuScene")
         {
-            deathController = GameObject.Find("Game Controller").GetComponent<DeathController>();
+            deathController = GameObject.Find("Level Controller").GetComponent<DeathController>();
         }
     }
 

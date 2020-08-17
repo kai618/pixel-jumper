@@ -2767,7 +2767,7 @@ PrefabInstance:
     - target: {fileID: 8075461141155774651, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
       propertyPath: m_Name
-      value: Game Controller
+      value: Level Controller
       objectReference: {fileID: 0}
     - target: {fileID: 8075461141155774653, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}

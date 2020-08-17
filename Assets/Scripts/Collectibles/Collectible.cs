@@ -10,7 +10,7 @@ public class Collectible : MonoBehaviour
 
     protected void Start()
     {
-        cc = GameObject.Find("Game Controller").GetComponent<CollectibleController>();
+        cc = GameObject.Find("Level Controller").GetComponent<CollectibleController>();
         cc.Register(gameObject);
     }
 
@@ -20,7 +20,7 @@ public class Collectible : MonoBehaviour
         if (tag == "Player")
         {
             cc.AddMoney(moneyValue);
-            
+
             Destroy(gameObject);
         }
     }
