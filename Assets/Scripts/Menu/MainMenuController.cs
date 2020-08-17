@@ -65,4 +65,11 @@ public class MainMenuController : MonoBehaviour
     {
         SceneManager.LoadScene("HieuTestScene");
     }
+
+    public void ToShop()
+    {
+        Debug.Log("Shop");
+        DataController.instance.data.AudioEnabled = false;
+        DataController.instance.Save();
+    }
 }

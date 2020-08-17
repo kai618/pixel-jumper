@@ -9,7 +9,7 @@ public class DataController : MonoBehaviour
     private String fileName = "/pixeljumper.data";
     public static DataController instance;
 
-    private GameData data;
+    public GameData data;
 
     void Awake()
     {
@@ -52,6 +52,12 @@ public class DataController : MonoBehaviour
             data = (GameData)bf.Deserialize(file);
             Debug.Log("Data Loaded");
         }
+#pragma warning disable 0168
+        catch (FileNotFoundException e)
+        {
+            data = new GameData();
+        }
+#pragma warning disable 0168
         finally
         {
             if (file != null) file.Close();
@@ -60,14 +66,25 @@ public class DataController : MonoBehaviour
 }
 
 [Serializable]
-class GameData
+public class GameData
 {
-    bool firstRun;
-    bool musicEnabled;
-    int selectedPlayer;
+    public bool FirstRun { get; set; }
+    public bool AudioEnabled { get; set; }
+    public int SelectedPlayer { get; set; }
 
-    int moneyTotal;
-    int deathCount;
-    int gameLevel;
-    bool[] boughtItems;
+    public int MoneyTotal { get; set; }
+    public int deathCount { get; set; }
+    public int GameLevel { get; set; }
+    public bool[] BoughtItems { get; set; }
+
+    public GameData()
+    {
+        FirstRun = true;
+        AudioEnabled = true;
+        SelectedPlayer = 1;
+        MoneyTotal = 0;
+        deathCount = 0;
+        GameLevel = 1;
+        BoughtItems = new bool[10];
+    }
 }
