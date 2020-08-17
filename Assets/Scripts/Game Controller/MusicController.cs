@@ -11,6 +11,14 @@ public class MusicController : MonoBehaviour
         MakeSingleton();
     }
 
+    void Start() {
+        PlayBgMusic();
+    }
+
+    private void PlayBgMusic() {
+
+    }
+
     private void MakeSingleton()
     {
         if (instance != null) return;
