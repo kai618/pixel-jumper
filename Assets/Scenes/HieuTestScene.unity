@@ -1401,6 +1401,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32785b714d9670548b28a39846ca7fb5, type: 3}
+--- !u!114 &1234272561 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1234272561, guid: 04b9e2c28104dc54b910802cc7ea3c8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 302241326737677129}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1240460213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2404,6 +2416,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 302241326737677129}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1947173403 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1947173403, guid: 04b9e2c28104dc54b910802cc7ea3c8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 302241326737677129}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2014016090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2451,7 +2475,15 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 718257641}
+    - target: {fileID: 1234272561, guid: 04b9e2c28104dc54b910802cc7ea3c8c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 718257641}
     - target: {fileID: 1477049016, guid: 04b9e2c28104dc54b910802cc7ea3c8c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 718257641}
+    - target: {fileID: 1947173403, guid: 04b9e2c28104dc54b910802cc7ea3c8c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 718257641}
@@ -2925,6 +2957,16 @@ PrefabInstance:
       propertyPath: pausePanel
       value: 
       objectReference: {fileID: 1921297668}
+    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
+        type: 3}
+      propertyPath: zoomOutBtn
+      value: 
+      objectReference: {fileID: 1947173403}
+    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
+        type: 3}
+      propertyPath: zoomInBtn
+      value: 
+      objectReference: {fileID: 1234272561}
     - target: {fileID: 8075461141155774651, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
       propertyPath: m_Name
@@ -3101,7 +3143,7 @@ PrefabInstance:
     - target: {fileID: 8404869985451649821, guid: 1aac0176700eb6b4c9bd87098062eba2,
         type: 3}
       propertyPath: m_Name
-      value: Main Camera
+      value: Level Camera
       objectReference: {fileID: 0}
     - target: {fileID: 8404869985451650017, guid: 1aac0176700eb6b4c9bd87098062eba2,
         type: 3}

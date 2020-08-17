@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - CamEdge
   - Collectible
+  - CurveLimit
   layers:
   - Default
   - TransparentFX

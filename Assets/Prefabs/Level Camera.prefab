@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 159535130}
   - component: {fileID: 1741172626}
   m_Layer: 0
-  m_Name: CamEdge Top
+  m_Name: Curve Limit Top
   m_TagString: CamEdge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 310915063}
   - component: {fileID: 985576293}
   m_Layer: 0
-  m_Name: CamEdge Left
+  m_Name: Curve Limit Left
   m_TagString: CamEdge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 2018577359}
   - component: {fileID: 1446776215}
   m_Layer: 0
-  m_Name: CamEdge Right
+  m_Name: Curve Limit Right
   m_TagString: CamEdge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 8404869985451649820}
   - component: {fileID: 441124755}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Level Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -211,7 +211,7 @@ Camera:
   far clip plane: 20
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 8404869986873487528}
   - component: {fileID: 113999204}
   m_Layer: 0
-  m_Name: CamEdge Bottom
+  m_Name: Curve Limit Bottom
   m_TagString: CamEdge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
