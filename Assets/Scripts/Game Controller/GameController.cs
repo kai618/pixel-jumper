@@ -14,14 +14,17 @@ public class GameController : MonoBehaviour
     void Awake()
     {
         BeSingleton();
-        instance.FetchData();
     }
 
     private void BeSingleton()
     {
-        if (instance != null) return;
-        instance = this;
-        DontDestroyOnLoad(gameObject);
+        if (instance != null) Destroy(gameObject);
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+            instance.FetchData();
+        }
     }
 
     public void PersistData()
@@ -60,7 +63,11 @@ public class GameController : MonoBehaviour
 #pragma warning disable 0168
         finally
         {
-            if (file != null) file.Close();
+            if (file != null)
+            {
+                file.Close();
+                PersistData();
+            }
         }
     }
 
