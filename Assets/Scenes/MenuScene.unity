@@ -446,51 +446,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Menu Music
-    clip: {fileID: 8300000, guid: 78465020a2310f34e888feae9389d17f, type: 3}
+    clip: {fileID: 8300000, guid: 6eec51b32a580e04da4be5ded806b431, type: 3}
     volume: 0.3
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Shop Music
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 6eec51b32a580e04da4be5ded806b431, type: 3}
     volume: 0.3
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Level 01 Music
-    clip: {fileID: 8300000, guid: 0dacba8b3d9e58544bb6b0261bb1baf5, type: 3}
-    volume: 0.3
+    clip: {fileID: 8300000, guid: 219b641231da860459bda726ca2c5492, type: 3}
+    volume: 0.4
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Level 02 Music
-    clip: {fileID: 8300000, guid: 3d9efaa3c61affe4ebce92188bdf4f4f, type: 3}
+    clip: {fileID: 8300000, guid: 5a970caf86fee274b87167b9cd8b9241, type: 3}
     volume: 0.3
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Select Button
     clip: {fileID: 8300000, guid: 98f7e6278f6e5c14082d942780090403, type: 3}
-    volume: 0.3
+    volume: 0.1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Pause
     clip: {fileID: 8300000, guid: 3f1cd4babf815e841a05b282219c60ef, type: 3}
-    volume: 0.7
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Hit
-    clip: {fileID: 8300000, guid: 051a8454f666b6644befef2e0dfed647, type: 3}
-    volume: 0.7
+    clip: {fileID: 8300000, guid: 355441fbd1df3b943bbfcc2be5c99fd3, type: 3}
+    volume: 0.8
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Collide
-    clip: {fileID: 8300000, guid: bc15ac7bf81a52a4e9c60ee3ad19dad5, type: 3}
-    volume: 0.7
-    pitch: 1
+    clip: {fileID: 8300000, guid: 63114a5f82da7384c8996db338471759, type: 3}
+    volume: 0.4
+    pitch: 1.5
     loop: 0
     source: {fileID: 0}
   - name: Collect Coin
@@ -501,8 +501,8 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Jump
     clip: {fileID: 8300000, guid: 9c54c7a1c10dcaf4e9469934c87ec439, type: 3}
-    volume: 0.3
-    pitch: 2
+    volume: 0.7
+    pitch: 1
     loop: 0
     source: {fileID: 0}
 --- !u!4 &147282429
@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 604266552}
   - component: {fileID: 604266551}
   m_Layer: 0
-  m_Name: Text
+  m_Name: Text 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2340,7 +2340,7 @@ GameObject:
   - component: {fileID: 1224075253}
   - component: {fileID: 1224075252}
   m_Layer: 0
-  m_Name: Text
+  m_Name: Text 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2722,7 +2722,7 @@ GameObject:
   - component: {fileID: 1502465272}
   - component: {fileID: 1502465271}
   m_Layer: 0
-  m_Name: Text
+  m_Name: Text 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2802,7 +2802,7 @@ GameObject:
   - component: {fileID: 1518029498}
   - component: {fileID: 1518029497}
   m_Layer: 0
-  m_Name: Text
+  m_Name: Text 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

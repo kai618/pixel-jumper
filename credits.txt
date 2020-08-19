@@ -1,0 +1,7 @@
+Audio:
+    menu bgMusic - dance and jump loop - snabisch @opengameart.org
+    level 01 bgMusic - jump and run - tropical mix - bart @opengameart.org
+    level 02 bgMusic - jump and run (8-bit) - tropical mix - bart @opengameart.org
+    collide SFX - jump landing sound - MentalSanityOff @opengameart.org
+
+Unity Assets:
