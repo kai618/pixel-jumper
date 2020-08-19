@@ -21,13 +21,45 @@ public class GameplayController : MonoBehaviour
     private readonly float maxCameraSize = 7;
     private GameObject pauseBtn;
 
+    private Player selecteddPlayer;
+
+    public GameObject NinjaFrog;
 
     void Awake()
     {
+        CreatePlayer();
         touchDetector = GameObject.Find("Touch Detector").GetComponent<TouchDetector>();
         levelCamera = GameObject.Find("Level Camera").GetComponent<Camera>();
-
         pauseBtn = GameObject.Find("Pause Btn");
+
+    }
+
+    private void CreatePlayer()
+    {
+        if (GameController.instance.Data.SelectedPlayer == 1)
+        {
+            GameObject gameObject = Instantiate(NinjaFrog, GetStartingPlayerPosition(), Quaternion.identity);
+            gameObject.name = "Player";
+
+            SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>();
+            sr.sortingLayerName = "Foreground";
+            sr.sortingOrder = 3;
+
+            selecteddPlayer = gameObject.GetComponent<Player>();
+        }
+    }
+
+    private Vector3 GetStartingPlayerPosition()
+    {
+        if (SceneManager.GetActiveScene().name == "Level_01")
+        {
+
+        }
+        else if (SceneManager.GetActiveScene().name == "Level_02")
+        {
+
+        }
+        return new Vector3(5, 14, 0);
     }
 
     public void PauseGame()
@@ -92,6 +124,7 @@ public class GameplayController : MonoBehaviour
 
     public void FinishLevel()
     {
+        selecteddPlayer.EndLevel();
         HudCanvas.SetActive(false);
         resultCanvas.SetActive(true);
     }

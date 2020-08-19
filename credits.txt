@@ -4,4 +4,7 @@ Audio:
     level 02 bgMusic - jump and run (8-bit) - tropical mix - bart @opengameart.org
     collide SFX - jump landing sound - MentalSanityOff @opengameart.org
 
+Sprites:
+    vortex exit - planetclicker-assets - FacadeGaikan @opengameart.org
+
 Unity Assets:

@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowCamera : MonoBehaviour
 {
     private Transform player;
-    void Awake()
+    void Start()
     {
         player = GameObject.Find("Player").GetComponent<Transform>();
     }

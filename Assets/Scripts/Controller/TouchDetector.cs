@@ -18,7 +18,7 @@ public class TouchDetector : MonoBehaviour
 
     private Jump jump;
 
-    void Awake()
+    void Start()
     {
         Input.multiTouchEnabled = false;
         player = GameObject.Find("Player").GetComponent<Player>();

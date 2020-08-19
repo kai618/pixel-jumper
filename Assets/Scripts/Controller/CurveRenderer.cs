@@ -13,7 +13,7 @@ public class CurveRenderer : MonoBehaviour
     private Player player;
     private Vector3 originPos;
 
-    void Awake()
+    void Start()
     {
         player = GameObject.Find("Player").GetComponent<Player>();
 
@@ -23,10 +23,7 @@ public class CurveRenderer : MonoBehaviour
         lr.useWorldSpace = false;
 
         g = Mathf.Abs(Physics2D.gravity.y * player.GetComponent<Rigidbody2D>().gravityScale);
-    }
 
-    void Start()
-    {
         SetOff();
     }
 

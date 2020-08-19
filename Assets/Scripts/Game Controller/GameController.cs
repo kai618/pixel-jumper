@@ -109,10 +109,10 @@ public class GameData
     {
         FirstRun = true;
         AudioEnabled = true;
-        SelectedPlayer = 1;
+        SelectedPlayer = 0;
         MoneyTotal = 0;
         deathCount = 0;
-        GameLevel = 1;
+        GameLevel = 0;
         BoughtItems = new bool[10];
     }
 }
