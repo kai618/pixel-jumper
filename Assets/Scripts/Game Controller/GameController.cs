@@ -76,7 +76,7 @@ public class GameController : MonoBehaviour
         if (!Data.AudioEnabled)
         {
             Data.AudioEnabled = true;
-            MusicController.instance.StartBackgroundMusic();
+            AudioController.instance.StartBackgroundMusic();
             PersistData();
         }
     }
@@ -86,7 +86,7 @@ public class GameController : MonoBehaviour
         if (Data.AudioEnabled)
         {
             Data.AudioEnabled = false;
-            MusicController.instance.StopBackgroundMusic();
+            AudioController.instance.StopBackgroundMusic();
             PersistData();
         }
     }
