@@ -10,6 +10,9 @@ public class GameplayController : MonoBehaviour
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private Button zoomInBtn;
     [SerializeField] private Button zoomOutBtn;
+
+    [SerializeField] private GameObject HudCanvas;
+    [SerializeField] private GameObject resultCanvas;
 #pragma warning disable 0649
 
     private TouchDetector touchDetector;
@@ -85,5 +88,11 @@ public class GameplayController : MonoBehaviour
             zoomInBtn.interactable = true;
             zoomOutBtn.interactable = true;
         }
+    }
+
+    public void FinishLevel()
+    {
+        HudCanvas.SetActive(false);
+        resultCanvas.SetActive(true);
     }
 }
