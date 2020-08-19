@@ -13,15 +13,4 @@ public class Collectible : MonoBehaviour
         cc = GameObject.Find("Level Controller").GetComponent<CollectibleController>();
         cc.Register(gameObject);
     }
-
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        string tag = collider.tag;
-        if (tag == "Player")
-        {
-            cc.AddMoney(moneyValue);
-
-            Destroy(gameObject);
-        }
-    }
 }

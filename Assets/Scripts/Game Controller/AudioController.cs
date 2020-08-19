@@ -9,7 +9,7 @@ public class AudioController : MonoBehaviour
 
     public Sound[] sounds = SetSoundName();
 
-    private AudioSource menuMusic;
+    private Sound currentMusic;
     private float menuMusicPos = 0;
 
     void Awake()
@@ -26,7 +26,7 @@ public class AudioController : MonoBehaviour
             s.source.loop = s.loop;
         }
 
-        menuMusic = sounds[0].source;
+        currentMusic = sounds[0];
     }
 
     private static Sound[] SetSoundName()
@@ -36,7 +36,7 @@ public class AudioController : MonoBehaviour
             new Sound("Shop Music"),
             new Sound("Level 01 Music"),
             new Sound("Level 02 Music"),
-            new Sound("Select Button"),
+            new Sound("Select Button"), // 4
             new Sound("Pause"),
             new Sound("Hit"),
             new Sound("Collide"),
@@ -63,38 +63,89 @@ public class AudioController : MonoBehaviour
 
     void OnSceneFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        if (!GameController.instance.Data.AudioEnabled) return;
+        StopBackgroundMusic();
 
-        if (scene.name == "MainScene")
+        if (scene.name == "MenuScene")
         {
-            Debug.Log("Menu music played");
+            currentMusic = sounds[0];
+        }
+        else if (scene.name == "Level_01")
+        {
+            currentMusic = sounds[2];
+        }
+        else if (scene.name == "Level_02")
+        {
+            currentMusic = sounds[3];
         }
 
-        else if (scene.name == "Level01")
+        else if (scene.name == "HieuTestScene")
         {
-            Debug.Log("Level 01 music played");
+            currentMusic = sounds[2]; ;
         }
+
+        if (GameController.instance.Data.AudioEnabled) StartBackgroundMusic();
     }
 
     public void StartBackgroundMusic()
     {
-        if (!menuMusic.isPlaying)
+        if (!currentMusic.source.isPlaying)
         {
-            menuMusic.time = menuMusicPos;
-            menuMusic.Play();
+            if (currentMusic.name == "Menu Music") currentMusic.source.time = menuMusicPos;
+            currentMusic.source.Play();
         }
-
     }
+
+
     public void StopBackgroundMusic()
     {
-        if (menuMusic.isPlaying)
+        if (currentMusic.source.isPlaying)
         {
-            menuMusicPos = menuMusic.time;
-            menuMusic.Stop();
+            if (currentMusic.name == "Menu Music") menuMusicPos = currentMusic.source.time;
+            currentMusic.source.Stop();
         }
     }
-}
+    public void PlaySelectSFX()
+    {
+        if (!GameController.instance.Data.AudioEnabled) return;
 
+        sounds[4].source.Play();
+    }
+    public void PlayPauseSFX()
+    {
+        if (!GameController.instance.Data.AudioEnabled) return;
+
+        sounds[5].source.Play();
+    }
+
+    public void PlayHitSFX()
+    {
+        if (!GameController.instance.Data.AudioEnabled) return;
+
+        sounds[6].source.Play();
+    }
+    public void PlayCollideSFX()
+    {
+        if (!GameController.instance.Data.AudioEnabled) return;
+        if (sounds[7].source.isPlaying) return;
+        if (sounds[9].source.isPlaying) sounds[9].source.Stop();
+
+        sounds[7].source.Play();
+    }
+    public void PlayCollectCoinSFX()
+    {
+        if (!GameController.instance.Data.AudioEnabled) return;
+        if (sounds[8].source.isPlaying) return;
+
+        sounds[8].source.Play();
+    }
+    public void PlayJumpSFX()
+    {
+        if (!GameController.instance.Data.AudioEnabled) return;
+        // if (sounds[9].source.isPlaying) return;
+
+        sounds[9].source.Play();
+    }
+}
 
 [Serializable]
 public class Sound

@@ -55,23 +55,27 @@ public class MainMenuController : MonoBehaviour
 
     public void ToLevelPanel()
     {
+        AudioController.instance.PlaySelectSFX();
         menuPanel.SetActive(false);
         levelPanel.SetActive(true);
     }
 
     public void ToMenuPanel()
     {
+        AudioController.instance.PlaySelectSFX();
         menuPanel.SetActive(true);
         levelPanel.SetActive(false);
     }
 
     public void ToLevel01()
     {
+        AudioController.instance.PlaySelectSFX();
         SceneManager.LoadScene("HieuTestScene");
     }
 
     public void ToShop()
     {
+        AudioController.instance.PlaySelectSFX();
         Debug.Log("Shop");
         GameController.instance.Data.AudioEnabled = false;
         GameController.instance.PersistData();

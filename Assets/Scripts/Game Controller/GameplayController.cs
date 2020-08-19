@@ -29,6 +29,7 @@ public class GameplayController : MonoBehaviour
 
     public void PauseGame()
     {
+        AudioController.instance.PlayPauseSFX();
         touchDetector.enabled = false;
         pauseBtn.SetActive(false);
         pausePanel.SetActive(true);
@@ -37,6 +38,7 @@ public class GameplayController : MonoBehaviour
 
     public void ResumeGame()
     {
+        AudioController.instance.PlaySelectSFX();
         pausePanel.SetActive(false);
         pauseBtn.SetActive(true);
         touchDetector.enabled = true;
@@ -45,12 +47,14 @@ public class GameplayController : MonoBehaviour
 
     public void ToMainMenu()
     {
+        AudioController.instance.PlaySelectSFX();
         Time.timeScale = 1f;
         SceneManager.LoadScene("MenuScene");
     }
 
     public void ZoomIn()
     {
+        AudioController.instance.PlaySelectSFX();
         float size = levelCamera.orthographicSize;
         if (size > minCameraSize) size--;
         levelCamera.orthographicSize = size;
@@ -59,6 +63,7 @@ public class GameplayController : MonoBehaviour
 
     public void ZoomOut()
     {
+        AudioController.instance.PlaySelectSFX();
         float size = levelCamera.orthographicSize;
         if (size < maxCameraSize) size++;
         levelCamera.orthographicSize = size;

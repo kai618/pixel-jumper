@@ -76,6 +76,7 @@ public class GameController : MonoBehaviour
         if (!Data.AudioEnabled)
         {
             Data.AudioEnabled = true;
+            AudioController.instance.PlaySelectSFX();
             AudioController.instance.StartBackgroundMusic();
             PersistData();
         }
