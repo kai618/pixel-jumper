@@ -10,6 +10,9 @@ TagManager:
   - CamEdge
   - Collectible
   - CurveLimit
+  - PointBack
+  - SafeZone
+  - Enemy
   layers:
   - Default
   - TransparentFX
