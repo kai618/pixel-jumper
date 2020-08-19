@@ -77,7 +77,5 @@ public class MainMenuController : MonoBehaviour
     {
         AudioController.instance.PlaySelectSFX();
         Debug.Log("Shop");
-        GameController.instance.Data.AudioEnabled = false;
-        GameController.instance.PersistData();
     }
 }
