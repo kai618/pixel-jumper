@@ -13,6 +13,7 @@ TagManager:
   - PointBack
   - SafeZone
   - Enemy
+  - Sound
   layers:
   - Default
   - TransparentFX
