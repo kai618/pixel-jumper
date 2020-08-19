@@ -9,6 +9,9 @@ TagManager:
   - Ground
   - CamEdge
   - Collectible
+  - PointBack
+  - SafeZone
+  - Enemy
   layers:
   - Default
   - TransparentFX
