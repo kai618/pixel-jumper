@@ -489,8 +489,8 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Collide
     clip: {fileID: 8300000, guid: 63114a5f82da7384c8996db338471759, type: 3}
-    volume: 0.4
-    pitch: 1.5
+    volume: 0.8
+    pitch: 2
     loop: 0
     source: {fileID: 0}
   - name: Collect Coin
@@ -501,7 +501,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Jump
     clip: {fileID: 8300000, guid: 9c54c7a1c10dcaf4e9469934c87ec439, type: 3}
-    volume: 0.7
+    volume: 0.8
     pitch: 1
     loop: 0
     source: {fileID: 0}
