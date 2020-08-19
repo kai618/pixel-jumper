@@ -11,4 +11,16 @@ public class Coin : Collectible
         base.Start();
         base.moneyValue = moneyValue;
     }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        string tag = collider.tag;
+        if (tag == "Player")
+        {
+            cc.AddMoney(moneyValue);
+
+            AudioController.instance.PlayCollectCoinSFX();
+            Destroy(gameObject);
+        }
+    }
 }

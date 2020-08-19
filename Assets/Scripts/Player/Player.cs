@@ -61,6 +61,8 @@ public class Player : MonoBehaviour
         else if (Clinged) SetPlayerClinged(false);
 
         SetVelocity(jump.velocity);
+        AudioController.instance.PlayJumpSFX();
+
         jump = null;
     }
 
@@ -128,17 +130,20 @@ public class Player : MonoBehaviour
         if (tag == "Ground")
         {
             SetPlayerGrounded(true);
+            // AudioController.instance.PlayCollideSFX();
         }
 
         // Math.Round is used here to remove the bug [wrong-drag]
         else if (tag == "Wall" && Math.Round(rb2d.velocity.x, 2) == 0)
         {
             SetPlayerClinged(true);
+            // AudioController.instance.PlayCollideSFX();
         }
 
         else if (tag == "Spike")
         {
             SetDead(true);
+            AudioController.instance.PlayHitSFX();
         }
     }
 

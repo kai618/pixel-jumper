@@ -12,7 +12,6 @@ public class CurveRenderer : MonoBehaviour
 
     private Player player;
     private Vector3 originPos;
-    private string ignoreTags = "Player Collectible";
 
     void Awake()
     {
@@ -152,12 +151,10 @@ public class CurveRenderer : MonoBehaviour
 
     private Vector3? GetRelativeHitPosition(Vector2 relativeStart, Vector2 relativeEnd, Vector2 origin)
     {
-        RaycastHit2D hit = Physics2D.Linecast(relativeStart + origin, relativeEnd + origin);
-
-        if (hit.collider == null || ignoreTags.Contains(hit.collider.tag))
-        {
-            return null;
-        }
+        // hit every thing except the layer Player
+        int layerMask = ~LayerMask.GetMask("Curve Ignore");
+        RaycastHit2D hit = Physics2D.Linecast(relativeStart + origin, relativeEnd + origin, layerMask);
+        if (hit.collider == null) return null;
         return hit.point - origin;
     }
 }

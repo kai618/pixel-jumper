@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - CamEdge
   - Collectible
+  - CurveLimit
   - PointBack
   - SafeZone
   - Enemy
@@ -21,7 +22,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Curve Ignore
   - 
   - 
   - 

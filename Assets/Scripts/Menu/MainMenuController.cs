@@ -27,14 +27,18 @@ public class MainMenuController : MonoBehaviour
 
     private async void AwakePlayer()
     {
-        await Task.Delay(500);
-        player.SetActive(true);
+        try
+        {
+            await Task.Delay(500);
+            player.SetActive(true);
 
-        await Task.Delay(2000);
-        playerScript.SetRun(true);
-        menuBackground.rotating = true;
+            await Task.Delay(2000);
+            playerScript.SetRun(true);
 
-        StartCoroutine(MakePlayerJump());
+            menuBackground.rotating = true;
+            StartCoroutine(MakePlayerJump());
+        }
+        catch { }
     }
 
     private IEnumerator MakePlayerJump()
@@ -51,18 +55,27 @@ public class MainMenuController : MonoBehaviour
 
     public void ToLevelPanel()
     {
+        AudioController.instance.PlaySelectSFX();
         menuPanel.SetActive(false);
         levelPanel.SetActive(true);
     }
 
     public void ToMenuPanel()
     {
+        AudioController.instance.PlaySelectSFX();
         menuPanel.SetActive(true);
         levelPanel.SetActive(false);
     }
 
     public void ToLevel01()
     {
+        AudioController.instance.PlaySelectSFX();
         SceneManager.LoadScene("HieuTestScene");
+    }
+
+    public void ToShop()
+    {
+        AudioController.instance.PlaySelectSFX();
+        Debug.Log("Shop");
     }
 }
