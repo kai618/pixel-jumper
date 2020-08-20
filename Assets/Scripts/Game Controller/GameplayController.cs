@@ -36,8 +36,9 @@ public class GameplayController : MonoBehaviour
 
     private void CreatePlayer()
     {
-        if (GameController.instance.Data.SelectedPlayer == 0)
-        {
+        // Debug.Log(GameController.instance.Data.SelectedPlayer);
+        // if (GameController.instance.Data.SelectedPlayer == 0)
+        // {
             GameObject gameObject = Instantiate(NinjaFrog, GetStartingPlayerPosition(), Quaternion.identity);
             gameObject.name = "Player";
 
@@ -46,7 +47,7 @@ public class GameplayController : MonoBehaviour
             sr.sortingOrder = 3;
 
             selecteddPlayer = gameObject.GetComponent<Player>();
-        }
+        // }
     }
 
     private Vector3 GetStartingPlayerPosition()
