@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CollectibleController : MonoBehaviour
 {
     private int collectibleCount = 0;
-    public int moneySum { get; private set; } = 0;
+    public int levelMoneySum { get; private set; } = 0;
 
     private Text moneySumText;
 
@@ -24,13 +24,13 @@ public class CollectibleController : MonoBehaviour
     {
         if (value > 0)
         {
-            moneySum += value;
+            levelMoneySum += value;
             RenderMoneySum();
         }
     }
 
     private void RenderMoneySum()
     {
-        moneySumText.text = moneySum.ToString();
+        moneySumText.text = levelMoneySum.ToString();
     }
 }

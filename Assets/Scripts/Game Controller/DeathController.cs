@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class DeathController : MonoBehaviour
 {
-    public int playerDeathCount { get; private set; } = 0;
+    public int levelDeathCount { get; private set; } = 0;
 
     private Text deathCountText;
 
@@ -35,12 +35,12 @@ public class DeathController : MonoBehaviour
 
     public void IncrementPlayerDeath()
     {
-        playerDeathCount++;
+        levelDeathCount++;
         RenderPlayerDeathCount();
     }
 
     void RenderPlayerDeathCount()
     {
-        deathCountText.text = playerDeathCount.ToString();
+        deathCountText.text = levelDeathCount.ToString();
     }
 }
