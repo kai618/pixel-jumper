@@ -36,7 +36,7 @@ public class GameplayController : MonoBehaviour
 
     private void CreatePlayer()
     {
-        if (GameController.instance.Data.SelectedPlayer == 1)
+        if (GameController.instance.Data.SelectedPlayer == 0)
         {
             GameObject gameObject = Instantiate(NinjaFrog, GetStartingPlayerPosition(), Quaternion.identity);
             gameObject.name = "Player";
