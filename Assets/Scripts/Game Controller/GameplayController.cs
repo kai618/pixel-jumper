@@ -28,6 +28,11 @@ public class GameplayController : MonoBehaviour
 
     private LevelInfo levelInfo;
 
+
+    public GameObject unfinishedRunText;
+
+    public GameObject finishedRunText;
+
     void Awake()
     {
         touchDetector = GameObject.Find("Touch Detector").GetComponent<TouchDetector>();
@@ -79,6 +84,16 @@ public class GameplayController : MonoBehaviour
         SceneManager.LoadScene("MenuScene");
     }
 
+    public void ToNextLevel()
+    {
+
+    }
+
+    public void Replay()
+    {
+
+    }
+
     public void ZoomIn()
     {
         AudioController.instance.PlaySelectSFX();
@@ -116,16 +131,20 @@ public class GameplayController : MonoBehaviour
 
     public void FinishLevel()
     {
-        selecteddPlayer.FinishLevel();
-
         CollectibleController cc = GetComponent<CollectibleController>();
         DeathController dc = GetComponent<DeathController>();
+        GameData data = GameController.instance.Data;
 
-        GameController.instance.Data.MoneyTotal += cc.levelMoneySum;
-        GameController.instance.Data.deathCount += dc.levelDeathCount;
-        GameController.instance.PersistData();
-
+        selecteddPlayer.FinishLevel();
         HudCanvas.SetActive(false);
         resultCanvas.SetActive(true);
+
+        if (data.ReachedLevel < levelInfo.level) unfinishedRunText.SetActive(true);
+        else finishedRunText.SetActive(true);
+
+        data.MoneyTotal += cc.levelMoneySum;
+        data.DeathCount += dc.levelDeathCount;
+        data.ReachedLevel = levelInfo.level;
+        GameController.instance.PersistData();
     }
 }

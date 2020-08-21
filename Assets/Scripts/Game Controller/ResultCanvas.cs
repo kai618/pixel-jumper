@@ -22,6 +22,6 @@ public class ResultCanvas : MonoBehaviour
         moneyTotalText.text = data.MoneyTotal.ToString();
 
         levelDeathCountText.text = dc.levelDeathCount.ToString();
-        deathTotalText.text = data.deathCount.ToString();
+        deathTotalText.text = data.DeathCount.ToString();
     }
 }
