@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HieuTestScene.unity
     guid: 03732c1445145474dba01f0b3904c8fe
-  - enabled: 1
-    path: Assets/Test/Duc/Scenes/TileMap1.unity
-    guid: cb98344a6a4f41f4ab3c0a5fc3e2613a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

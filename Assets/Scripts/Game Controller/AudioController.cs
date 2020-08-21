@@ -69,11 +69,15 @@ public class AudioController : MonoBehaviour
         {
             currentMusic = sounds[0];
         }
-        else if (scene.name == "Level_01")
+        else if (scene.name == "ShopScene")
+        {
+            currentMusic = sounds[1];
+        }
+        else if (scene.name == "Level_1")
         {
             currentMusic = sounds[2];
         }
-        else if (scene.name == "Level_02")
+        else if (scene.name == "Level_2")
         {
             currentMusic = sounds[3];
         }

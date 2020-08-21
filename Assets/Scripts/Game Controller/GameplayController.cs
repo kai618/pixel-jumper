@@ -6,14 +6,12 @@ using UnityEngine.UI;
 
 public class GameplayController : MonoBehaviour
 {
-#pragma warning disable 0649
-    [SerializeField] private GameObject pausePanel;
-    [SerializeField] private Button zoomInBtn;
-    [SerializeField] private Button zoomOutBtn;
+    public GameObject pausePanel;
+    public Button zoomInBtn;
+    public Button zoomOutBtn;
 
-    [SerializeField] private GameObject HudCanvas;
-    [SerializeField] private GameObject resultCanvas;
-#pragma warning disable 0649
+    public GameObject HudCanvas;
+    public GameObject resultCanvas;
 
     private TouchDetector touchDetector;
     private Camera levelCamera;
@@ -27,11 +25,6 @@ public class GameplayController : MonoBehaviour
     public GameObject Astronaut;
 
     private LevelInfo levelInfo;
-
-
-    public GameObject unfinishedRunText;
-
-    public GameObject finishedRunText;
 
     void Awake()
     {
@@ -86,12 +79,12 @@ public class GameplayController : MonoBehaviour
 
     public void ToNextLevel()
     {
-
+        SceneManager.LoadScene(levelInfo.nextScene);
     }
 
     public void Replay()
     {
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void ZoomIn()
@@ -139,12 +132,13 @@ public class GameplayController : MonoBehaviour
         HudCanvas.SetActive(false);
         resultCanvas.SetActive(true);
 
-        if (data.ReachedLevel < levelInfo.level) unfinishedRunText.SetActive(true);
-        else finishedRunText.SetActive(true);
+        Debug.Log(data.ReachedLevel);
+        if (data.ReachedLevel <= levelInfo.level) resultCanvas.GetComponent<ResultCanvas>().ShowFirstRunText();
+        else resultCanvas.GetComponent<ResultCanvas>().ShowHNotFirstRunText();
 
         data.MoneyTotal += cc.levelMoneySum;
         data.DeathCount += dc.levelDeathCount;
-        data.ReachedLevel = levelInfo.level;
+        data.ReachedLevel = levelInfo.level + 1;
         GameController.instance.PersistData();
     }
 }

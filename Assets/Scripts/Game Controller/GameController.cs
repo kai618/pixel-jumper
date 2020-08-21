@@ -58,7 +58,6 @@ public class GameController : MonoBehaviour
             if (Data.FirstRun)
             {
                 Data.FirstRun = false;
-                PersistData();
             }
 
             Debug.Log("Data Loaded");
@@ -72,6 +71,7 @@ public class GameController : MonoBehaviour
         finally
         {
             if (file != null) file.Close();
+            PersistData();
         }
     }
 

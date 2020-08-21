@@ -3186,6 +3186,16 @@ PrefabInstance:
       propertyPath: finishedRunText
       value: 
       objectReference: {fileID: 8440146033529375329}
+    - target: {fileID: 8075461140016582154, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
+        type: 3}
+      propertyPath: playerStartPos.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075461140016582154, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
+        type: 3}
+      propertyPath: playerStartPos.y
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 8075461141155774651, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
       propertyPath: m_Name
@@ -3428,6 +3438,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1662085470759897114, guid: c6b649cecbc846a4dacba8ab66287ea3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5631861355666926285, guid: c6b649cecbc846a4dacba8ab66287ea3,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3447,11 +3462,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Result Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440146034963248007, guid: c6b649cecbc846a4dacba8ab66287ea3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8440146034963248010, guid: c6b649cecbc846a4dacba8ab66287ea3,
         type: 3}
