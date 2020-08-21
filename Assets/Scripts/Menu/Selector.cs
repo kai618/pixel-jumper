@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class Selector : MonoBehaviour
 {
     public Button[] selectorBtns = new Button[3];
-    public Color visibleColor = new Color(255, 255, 255, 100);
-    public Color invisibleColor = new Color(255, 255, 255, 0);
+    public Color visibleColor;
+    public Color invisibleColor;
 
     void Start()
     {
@@ -39,6 +39,7 @@ public class Selector : MonoBehaviour
     {
         if (index == GameController.instance.Data.SelectedSkin) return;
         Debug.Log("changed to skin " + index);
+        AudioController.instance.PlaySelectSFX();
 
         GameController.instance.Data.SelectedSkin = index;
         GameController.instance.PersistData();
