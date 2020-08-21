@@ -13,8 +13,8 @@ public class TouchDetector : MonoBehaviour
     public readonly float minMagnitude = 0.5f;
     public readonly float maxMagnitude = 2f;
 
-    private CurveRenderer cr;
-    private ArcRenderer ar;
+    [SerializeField] private CurveRenderer cr;
+    [SerializeField] private ArcRenderer ar;
 
     private Jump jump;
 
@@ -22,9 +22,6 @@ public class TouchDetector : MonoBehaviour
     {
         Input.multiTouchEnabled = false;
         player = GameObject.Find("Player").GetComponent<Player>();
-
-        cr = GameObject.Find("Curve Renderer").GetComponent<CurveRenderer>();
-        ar = GameObject.Find("Arc Renderer").GetComponent<ArcRenderer>();
     }
 
     void Update()

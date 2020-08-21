@@ -18,10 +18,6 @@ public class ResultCanvas : MonoBehaviour
         DeathController dc = GameObject.Find("Level Controller").GetComponent<DeathController>();
         GameData data = GameController.instance.Data;
 
-        data.MoneyTotal += cc.levelMoneySum;
-        data.deathCount += dc.levelDeathCount;
-        GameController.instance.PersistData();
-
         levelMoneySumText.text = cc.levelMoneySum.ToString();
         moneyTotalText.text = data.MoneyTotal.ToString();
 

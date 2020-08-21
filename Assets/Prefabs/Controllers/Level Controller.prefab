@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 877434020534435581}
   - component: {fileID: 1144832615}
   - component: {fileID: 1144832616}
+  - component: {fileID: 8075461140016582154}
   m_Layer: 0
-  m_Name: Game Controller
+  m_Name: Level Controller
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -46,6 +47,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 0}
+  zoomInBtn: {fileID: 0}
+  zoomOutBtn: {fileID: 0}
+  HudCanvas: {fileID: 0}
+  resultCanvas: {fileID: 0}
+  NinjaFrog: {fileID: 7961539854842552331, guid: d50e6484d57f589478525ae83ccae204,
+    type: 3}
+  Astronaut: {fileID: 0}
 --- !u!114 &1144832615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,3 +78,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92360c9e1d1e45845a1ec20d96471680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8075461140016582154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8075461141155774651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ca40feed5e12545b308bfa9628a05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+  playerStartPos: {x: 5, y: 14}

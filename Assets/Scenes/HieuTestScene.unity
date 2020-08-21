@@ -285,6 +285,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5359973338851523740}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &295523717 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 920029155171966274, guid: 32785b714d9670548b28a39846ca7fb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1204525590}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e77cc7844dcac4b866e5dd2bdaded3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &322704686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,11 +1480,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Curve Renderer
       objectReference: {fileID: 0}
-    - target: {fileID: 920029155171966277, guid: 32785b714d9670548b28a39846ca7fb5,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32785b714d9670548b28a39846ca7fb5, type: 3}
 --- !u!114 &1234272561 stripped
@@ -2271,6 +2278,18 @@ Transform:
   m_Father: {fileID: 940749647}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &1804882946 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2811063829041085979, guid: 0f02801b94e4d1b46b9a391e7cf947f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2811063828672113567}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b962a70830a2aa49b66b13c72b6b689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1836052195
 GameObject:
   m_ObjectHideFlags: 0
@@ -2831,6 +2850,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Touch Detector
       objectReference: {fileID: 0}
+    - target: {fileID: 2030751635951793065, guid: ca52027610b9c9946a3326a311fdf965,
+        type: 3}
+      propertyPath: cr
+      value: 
+      objectReference: {fileID: 295523717}
+    - target: {fileID: 2030751635951793065, guid: ca52027610b9c9946a3326a311fdf965,
+        type: 3}
+      propertyPath: ar
+      value: 
+      objectReference: {fileID: 1804882946}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca52027610b9c9946a3326a311fdf965, type: 3}
 --- !u!1001 &2811063828672113567
@@ -2950,11 +2979,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 441124757}
-    - target: {fileID: 2811063828434604617, guid: 0f02801b94e4d1b46b9a391e7cf947f5,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 2811063828434604620, guid: 0f02801b94e4d1b46b9a391e7cf947f5,
         type: 3}
       propertyPath: m_Name
@@ -3119,19 +3143,14 @@ PrefabInstance:
       objectReference: {fileID: 1921297668}
     - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
-      propertyPath: zoomOutBtn
-      value: 
-      objectReference: {fileID: 1947173403}
-    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
       propertyPath: zoomInBtn
       value: 
       objectReference: {fileID: 1234272561}
     - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
-      propertyPath: resultCanvas
+      propertyPath: zoomOutBtn
       value: 
-      objectReference: {fileID: 1586969063}
+      objectReference: {fileID: 1947173403}
     - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
       propertyPath: HudCanvas
@@ -3139,10 +3158,9 @@ PrefabInstance:
       objectReference: {fileID: 302241326737677130}
     - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
-      propertyPath: NinjaFrog
+      propertyPath: resultCanvas
       value: 
-      objectReference: {fileID: 7961539854842552331, guid: d50e6484d57f589478525ae83ccae204,
-        type: 3}
+      objectReference: {fileID: 1586969063}
     - target: {fileID: 8075461141155774651, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
       propertyPath: m_Name
