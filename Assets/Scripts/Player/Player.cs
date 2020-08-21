@@ -286,7 +286,7 @@ public class Player : MonoBehaviour
         animator.SetBool("Run", status);
     }
 
-    public void EndLevel()
+    public void FinishLevel()
     {
         rb2d.velocity = Vector2.zero;
         SetKinematicTrue();

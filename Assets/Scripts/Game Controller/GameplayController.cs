@@ -24,14 +24,18 @@ public class GameplayController : MonoBehaviour
     private Player selecteddPlayer;
 
     public GameObject NinjaFrog;
+    public GameObject Astronaut;
+
+    private LevelInfo levelInfo;
 
     void Awake()
     {
-        CreatePlayer();
         touchDetector = GameObject.Find("Touch Detector").GetComponent<TouchDetector>();
         levelCamera = GameObject.Find("Level Camera").GetComponent<Camera>();
         pauseBtn = GameObject.Find("Pause Btn");
+        levelInfo = GetComponent<LevelInfo>();
 
+        CreatePlayer();
     }
 
     private void CreatePlayer()
@@ -39,28 +43,15 @@ public class GameplayController : MonoBehaviour
         // Debug.Log(GameController.instance.Data.SelectedPlayer);
         // if (GameController.instance.Data.SelectedPlayer == 0)
         // {
-            GameObject gameObject = Instantiate(NinjaFrog, GetStartingPlayerPosition(), Quaternion.identity);
-            gameObject.name = "Player";
+        GameObject gameObject = Instantiate(NinjaFrog, levelInfo.playerStartPos, Quaternion.identity);
+        gameObject.name = "Player";
 
-            SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>();
-            sr.sortingLayerName = "Foreground";
-            sr.sortingOrder = 3;
+        SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>();
+        sr.sortingLayerName = "Foreground";
+        sr.sortingOrder = 3;
 
-            selecteddPlayer = gameObject.GetComponent<Player>();
+        selecteddPlayer = gameObject.GetComponent<Player>();
         // }
-    }
-
-    private Vector3 GetStartingPlayerPosition()
-    {
-        if (SceneManager.GetActiveScene().name == "Level_01")
-        {
-
-        }
-        else if (SceneManager.GetActiveScene().name == "Level_02")
-        {
-
-        }
-        return new Vector3(5, 14, 0);
     }
 
     public void PauseGame()
@@ -125,7 +116,15 @@ public class GameplayController : MonoBehaviour
 
     public void FinishLevel()
     {
-        selecteddPlayer.EndLevel();
+        selecteddPlayer.FinishLevel();
+
+        CollectibleController cc = GetComponent<CollectibleController>();
+        DeathController dc = GetComponent<DeathController>();
+
+        GameController.instance.Data.MoneyTotal += cc.levelMoneySum;
+        GameController.instance.Data.deathCount += dc.levelDeathCount;
+        GameController.instance.PersistData();
+
         HudCanvas.SetActive(false);
         resultCanvas.SetActive(true);
     }
