@@ -29,18 +29,30 @@ public class MainMenuController : MonoBehaviour
 
     private void AwakeSelectedHero()
     {
-        AwakeNinjaFrog();
+        Vector2 startPos = Vector2.zero;
+
+        int skinCount = 1;
         bool[] skins = GameController.instance.Data.BoughtSkins;
-        if (skins[0]) AwakeVirtualGuy();
-        if (skins[1]) AwakePinkMan();
+        foreach (bool s in skins)
+        {
+            if (s) skinCount++;
+        }
+
+        // make the skin row look symmetric
+        if (skinCount % 2 == 0) startPos.x += -0.95f;
+
+        AwakeNinjaFrog(startPos);
+        if (skins[0]) AwakeVirtualGuy(startPos + new Vector2(-1.9f, -1));
+        if (skins[1]) AwakePinkMan(startPos + new Vector2(1.9f, -0.5f));
+
     }
 
-    private async void AwakeNinjaFrog()
+    private async void AwakeNinjaFrog(Vector2 pos)
     {
         try
         {
             await Task.Delay(500);
-            GameObject frog = Instantiate(NinjaFrog, Vector2.zero, Quaternion.identity);
+            GameObject frog = Instantiate(NinjaFrog, pos, Quaternion.identity);
             frog.name = "Ninja Frog";
 
             await Task.Delay(2000);
@@ -51,13 +63,13 @@ public class MainMenuController : MonoBehaviour
         }
         catch { }
     }
-    private async void AwakeVirtualGuy()
+    private async void AwakeVirtualGuy(Vector2 pos)
     {
         try
         {
             await Task.Delay(700);
 
-            GameObject guy = Instantiate(VirtualGuy, new Vector2(-1.9f, -1), Quaternion.identity);
+            GameObject guy = Instantiate(VirtualGuy, pos, Quaternion.identity);
             guy.name = "Virtual Guy";
 
             await Task.Delay(1800);
@@ -68,13 +80,13 @@ public class MainMenuController : MonoBehaviour
         catch { }
     }
 
-    private async void AwakePinkMan()
+    private async void AwakePinkMan(Vector2 pos)
     {
         try
         {
             await Task.Delay(900);
 
-            GameObject man = Instantiate(PinkMan, new Vector2(1.9f, -0.5f), Quaternion.identity);
+            GameObject man = Instantiate(PinkMan, pos, Quaternion.identity);
             man.name = "Pink Man";
 
             await Task.Delay(1600);
@@ -88,7 +100,7 @@ public class MainMenuController : MonoBehaviour
     private IEnumerator MakePlayerJump(GameObject player)
     {
         Player playerScript = player.GetComponent<Player>();
-        float duration = Random.Range(5, 8);
+        float duration = Random.Range(4, 8);
         yield return new WaitForSeconds(duration);
 
         float distanceY = Random.Range(1f, 1.7f);
