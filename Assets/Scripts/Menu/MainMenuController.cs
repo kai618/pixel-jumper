@@ -2,13 +2,14 @@
 using UnityEngine.SceneManagement;
 using System.Threading.Tasks;
 using System.Collections;
+using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
 #pragma warning disable 0649
-    [SerializeField] private GameObject player;
-    [SerializeField] private GameObject menuPanel;
-    [SerializeField] private GameObject levelPanel;
+    public GameObject player;
+    public GameObject menuPanel;
+    public GameObject levelPanel;
 #pragma warning disable 0649
 
     private MenuBackground menuBackground;
@@ -53,6 +54,8 @@ public class MainMenuController : MonoBehaviour
         StartCoroutine(MakePlayerJump());
     }
 
+
+
     public void ToLevelPanel()
     {
         AudioController.instance.PlaySelectSFX();
@@ -71,6 +74,16 @@ public class MainMenuController : MonoBehaviour
     {
         AudioController.instance.PlaySelectSFX();
         SceneManager.LoadScene("HieuTestScene");
+    }
+    public void ToLevel02()
+    {
+        AudioController.instance.PlaySelectSFX();
+        SceneManager.LoadScene("Level_2");
+    }
+
+    public void ToLevel03()
+    {
+
     }
 
     public void ToShop()
