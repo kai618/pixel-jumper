@@ -13,8 +13,10 @@ public class TouchDetector : MonoBehaviour
     public readonly float minMagnitude = 0.5f;
     public readonly float maxMagnitude = 2f;
 
+#pragma warning disable 0649
     [SerializeField] private CurveRenderer cr;
     [SerializeField] private ArcRenderer ar;
+#pragma warning disable 0649
 
     private Jump jump;
 
