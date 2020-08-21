@@ -22,7 +22,8 @@ public class GameplayController : MonoBehaviour
     private Player selecteddPlayer;
 
     public GameObject NinjaFrog;
-    public GameObject Astronaut;
+    public GameObject VirtualGuy;
+    public GameObject PinkMan;
 
     private LevelInfo levelInfo;
 
@@ -132,13 +133,12 @@ public class GameplayController : MonoBehaviour
         HudCanvas.SetActive(false);
         resultCanvas.SetActive(true);
 
-        Debug.Log(data.ReachedLevel);
         if (data.ReachedLevel <= levelInfo.level) resultCanvas.GetComponent<ResultCanvas>().ShowFirstRunText();
         else resultCanvas.GetComponent<ResultCanvas>().ShowHNotFirstRunText();
 
         data.MoneyTotal += cc.levelMoneySum;
         data.DeathCount += dc.levelDeathCount;
-        data.ReachedLevel = levelInfo.level + 1;
+        data.ReachedLevel = levelInfo.level;
         GameController.instance.PersistData();
     }
 }

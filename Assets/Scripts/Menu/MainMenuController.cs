@@ -6,61 +6,104 @@ using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
-#pragma warning disable 0649
-    public GameObject player;
     public GameObject menuPanel;
     public GameObject levelPanel;
-#pragma warning disable 0649
 
     private MenuBackground menuBackground;
-    private Player playerScript;
+
+    public GameObject selector;
+
+    public GameObject NinjaFrog;
+    public GameObject VirtualGuy;
+    public GameObject PinkMan;
 
     void Awake()
     {
         menuBackground = GameObject.Find("Background").GetComponent<MenuBackground>();
-        playerScript = player.GetComponent<Player>();
     }
 
     void Start()
     {
-        AwakePlayer();
+        AwakeSelectedHero();
     }
 
-    private async void AwakePlayer()
+    private void AwakeSelectedHero()
+    {
+        AwakeNinjaFrog();
+        bool[] skins = GameController.instance.Data.BoughtSkins;
+        if (skins[0]) AwakeVirtualGuy();
+        if (skins[1]) AwakePinkMan();
+    }
+
+    private async void AwakeNinjaFrog()
     {
         try
         {
             await Task.Delay(500);
-            player.SetActive(true);
+            GameObject frog = Instantiate(NinjaFrog, Vector2.zero, Quaternion.identity);
+            frog.name = "Ninja Frog";
 
             await Task.Delay(2000);
-            playerScript.SetRun(true);
+            frog.GetComponent<Player>().SetRun(true);
 
-            menuBackground.rotating = true;
-            StartCoroutine(MakePlayerJump());
+            menuBackground.scrolling = true;
+            StartCoroutine(MakePlayerJump(frog));
+        }
+        catch { }
+    }
+    private async void AwakeVirtualGuy()
+    {
+        try
+        {
+            await Task.Delay(700);
+
+            GameObject guy = Instantiate(VirtualGuy, new Vector2(-1.9f, -1), Quaternion.identity);
+            guy.name = "Virtual Guy";
+
+            await Task.Delay(1800);
+            guy.GetComponent<Player>().SetRun(true);
+
+            StartCoroutine(MakePlayerJump(guy));
         }
         catch { }
     }
 
-    private IEnumerator MakePlayerJump()
+    private async void AwakePinkMan()
     {
-        float duration = Random.Range(6, 8);
+        try
+        {
+            await Task.Delay(900);
+
+            GameObject man = Instantiate(PinkMan, new Vector2(1.9f, -0.5f), Quaternion.identity);
+            man.name = "Pink Man";
+
+            await Task.Delay(1600);
+            man.GetComponent<Player>().SetRun(true);
+
+            StartCoroutine(MakePlayerJump(man));
+        }
+        catch { }
+    }
+
+    private IEnumerator MakePlayerJump(GameObject player)
+    {
+        Player playerScript = player.GetComponent<Player>();
+        float duration = Random.Range(5, 8);
         yield return new WaitForSeconds(duration);
 
-        float distanceY = Random.Range(1f, 1.5f);
+        float distanceY = Random.Range(1f, 1.7f);
         Jump jump = playerScript.GenerateJump(new Vector2(0, distanceY));
         playerScript.SetJump(jump);
 
-        StartCoroutine(MakePlayerJump());
+        StartCoroutine(MakePlayerJump(player));
     }
-
-
 
     public void ToLevelPanel()
     {
         AudioController.instance.PlaySelectSFX();
         menuPanel.SetActive(false);
         levelPanel.SetActive(true);
+        selector.SetActive(true);
     }
 
     public void ToMenuPanel()
@@ -68,6 +111,7 @@ public class MainMenuController : MonoBehaviour
         AudioController.instance.PlaySelectSFX();
         menuPanel.SetActive(true);
         levelPanel.SetActive(false);
+        selector.SetActive(false);
     }
 
     public void ToLevel01()

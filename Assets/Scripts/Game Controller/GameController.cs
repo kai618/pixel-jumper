@@ -102,7 +102,7 @@ public class GameData
 {
     public bool FirstRun { get; set; }
     public bool AudioEnabled { get; set; }
-    public int SelectedPlayer { get; set; }
+    public int SelectedSkin { get; set; }
 
     public int MoneyTotal { get; set; }
     public int DeathCount { get; set; }
@@ -123,10 +123,10 @@ public class GameData
     {
         FirstRun = true;
         AudioEnabled = true;
-        SelectedPlayer = 1;
+        SelectedSkin = 0;
         MoneyTotal = 0;
         DeathCount = 0;
         ReachedLevel = 1;
-        BoughtSkins = new bool[4];
+        BoughtSkins = new bool[2] { true, true };
     }
 }
