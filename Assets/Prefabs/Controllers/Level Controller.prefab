@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8075461141155774651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.85, y: -13.01, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.61353, y: 0.48167157, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -53,7 +53,9 @@ MonoBehaviour:
   resultCanvas: {fileID: 0}
   NinjaFrog: {fileID: 7961539854842552331, guid: d50e6484d57f589478525ae83ccae204,
     type: 3}
-  Astronaut: {fileID: 0}
+  VirtualGuy: {fileID: 635905206712922649, guid: 36429fe6e4a4d654497a4db4ecfb3af7,
+    type: 3}
+  PinkMan: {fileID: 2595715257408255145, guid: 7059c28f957e9254db9e1ecdcea7dd9f, type: 3}
 --- !u!114 &1144832615
 MonoBehaviour:
   m_ObjectHideFlags: 0

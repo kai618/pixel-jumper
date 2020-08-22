@@ -12128,19 +12128,14 @@ PrefabInstance:
       objectReference: {fileID: 1005174387}
     - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
-      propertyPath: zoomOutBtn
-      value: 
-      objectReference: {fileID: 698951696}
-    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
       propertyPath: zoomInBtn
       value: 
       objectReference: {fileID: 1902163061}
     - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
-      propertyPath: resultCanvas
+      propertyPath: zoomOutBtn
       value: 
-      objectReference: {fileID: 1654624304}
+      objectReference: {fileID: 698951696}
     - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
       propertyPath: HudCanvas
@@ -12148,20 +12143,9 @@ PrefabInstance:
       objectReference: {fileID: 701608454}
     - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
-      propertyPath: NinjaFrog
+      propertyPath: resultCanvas
       value: 
-      objectReference: {fileID: 7961539854842552331, guid: d50e6484d57f589478525ae83ccae204,
-        type: 3}
-    - target: {fileID: 8075461140016582154, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: playerStartPos.x
-      value: -24.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 8075461140016582154, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: playerStartPos.y
-      value: 8.65
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1654624304}
     - target: {fileID: 8075461141155774651, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
       propertyPath: m_Name
@@ -12221,16 +12205,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8075461141155774653, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.48167157
-      objectReference: {fileID: 0}
-    - target: {fileID: 8075461141155774653, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.61353
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 434ca6eb25bb1644ead0b20cb01c82d5, type: 3}
