@@ -29,17 +29,21 @@ public class ShopMenuController : MonoBehaviour
 
     public void ToMenu()
     {
+        AudioController.instance.PlaySelectSFX();
         SceneManager.LoadScene("MenuScene");
     }
 
     public void ShowConfirmPanel(BuySkinButton button, int index, string title, int price)
     {
+        AudioController.instance.PlaySelectSFX();
+
         if (price > GameController.instance.Data.MoneyTotal)
         {
             notEnoughMoneyPanel.SetActive(true);
             okBtn.onClick.RemoveAllListeners();
             okBtn.onClick.AddListener(() =>
             {
+                AudioController.instance.PlaySelectSFX();
                 notEnoughMoneyPanel.SetActive(false);
             });
         }
@@ -55,16 +59,19 @@ public class ShopMenuController : MonoBehaviour
 
             yesBtn.onClick.AddListener(() =>
             {
+
                 GameController.instance.Data.BoughtSkins[index] = true;
                 GameController.instance.Data.MoneyTotal -= price;
                 GameController.instance.PersistData();
                 confirmPanel.SetActive(false);
+                AudioController.instance.PlaySpendCoinSFX();
                 SetMoneyText();
                 button.SetSold();
             });
 
             noBtn.onClick.AddListener(() =>
             {
+                AudioController.instance.PlaySelectSFX();
                 confirmPanel.SetActive(false);
             });
         }

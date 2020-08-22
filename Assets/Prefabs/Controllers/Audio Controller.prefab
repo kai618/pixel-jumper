@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe0741c6f75bb0c40bbcb29c043f2910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
+  audios:
   - name: Menu Music
     clip: {fileID: 8300000, guid: 6eec51b32a580e04da4be5ded806b431, type: 3}
     volume: 0.3
@@ -81,7 +81,7 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: Hit
-    clip: {fileID: 8300000, guid: 355441fbd1df3b943bbfcc2be5c99fd3, type: 3}
+    clip: {fileID: 8300000, guid: 051a8454f666b6644befef2e0dfed647, type: 3}
     volume: 0.8
     pitch: 1
     loop: 0
@@ -101,6 +101,12 @@ MonoBehaviour:
   - name: Jump
     clip: {fileID: 8300000, guid: 9c54c7a1c10dcaf4e9469934c87ec439, type: 3}
     volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Spend Coin
+    clip: {fileID: 8300000, guid: 75920378d9ab8984393e22536d520a88, type: 3}
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
