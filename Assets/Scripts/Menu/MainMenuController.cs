@@ -39,7 +39,7 @@ public class MainMenuController : MonoBehaviour
         }
 
         // make the skin row look symmetric
-        if (skinCount % 2 == 0) startPos.x += -0.95f;
+        // if (skinCount % 2 == 0) startPos.x += -0.95f;
 
         AwakeNinjaFrog(startPos);
         if (skins[0]) AwakeVirtualGuy(startPos + new Vector2(-1.9f, -1));
@@ -145,6 +145,6 @@ public class MainMenuController : MonoBehaviour
     public void ToShop()
     {
         AudioController.instance.PlaySelectSFX();
-        Debug.Log("Shop");
+        SceneManager.LoadScene("ShopScene");
     }
 }

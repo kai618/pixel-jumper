@@ -51,7 +51,7 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: Shop Music
-    clip: {fileID: 8300000, guid: 6eec51b32a580e04da4be5ded806b431, type: 3}
+    clip: {fileID: 8300000, guid: 1b8cc7f110b3f2847be98dff73be0fc4, type: 3}
     volume: 0.3
     pitch: 1
     loop: 1

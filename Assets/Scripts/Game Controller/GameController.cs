@@ -22,8 +22,8 @@ public class GameController : MonoBehaviour
         else
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
             instance.FetchData();
+            DontDestroyOnLoad(gameObject);
         }
     }
 
@@ -127,6 +127,6 @@ public class GameData
         MoneyTotal = 0;
         DeathCount = 0;
         ReachedLevel = 1;
-        BoughtSkins = new bool[2] { true, true };
+        BoughtSkins = new bool[2] { false, false };
     }
 }
