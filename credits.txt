@@ -3,8 +3,13 @@ Audio:
     level 01 bgMusic - jump and run - tropical mix - bart @opengameart.org
     level 02 bgMusic - jump and run (8-bit) - tropical mix - bart @opengameart.org
     collide SFX - jump landing sound - MentalSanityOff @opengameart.org
+    shop bgMusic - item shop - controllerhead - @opengameart.org
 
 Sprites:
     vortex exit - planetclicker-assets - FacadeGaikan @opengameart.org
 
 Unity Assets:
+    sound FX - retro pack - zero rare
+    sprite pack #1 - tap and fly - render knight
+    free pixel font - thaleah
+    pixel adventure 1 - pixel frog
