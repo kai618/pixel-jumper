@@ -19,13 +19,13 @@ public class GameplayController : MonoBehaviour
     private readonly float maxCameraSize = 7;
     private GameObject pauseBtn;
 
-    private Player selecteddPlayer;
-
     public GameObject NinjaFrog;
     public GameObject VirtualGuy;
     public GameObject PinkMan;
 
     private LevelInfo levelInfo;
+
+    private GameObject player;
 
     void Awake()
     {
@@ -40,17 +40,23 @@ public class GameplayController : MonoBehaviour
     private void CreatePlayer()
     {
         // Debug.Log(GameController.instance.Data.SelectedPlayer);
-        // if (GameController.instance.Data.SelectedPlayer == 0)
-        // {
-        GameObject gameObject = Instantiate(NinjaFrog, levelInfo.playerStartPos, Quaternion.identity);
-        gameObject.name = "Player";
+        if (GameController.instance.Data.SelectedSkin == 0)
+        {
+            player = Instantiate(NinjaFrog, levelInfo.playerStartPos, Quaternion.identity);
+        }
+        else if (GameController.instance.Data.SelectedSkin == 1)
+        {
+            player = Instantiate(VirtualGuy, levelInfo.playerStartPos, Quaternion.identity);
+        }
+        else if (GameController.instance.Data.SelectedSkin == 2)
+        {
+            player = Instantiate(NinjaFrog, levelInfo.playerStartPos, Quaternion.identity);
+        }
 
-        SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>();
+        player.name = "Player";
+        SpriteRenderer sr = player.GetComponent<SpriteRenderer>();
         sr.sortingLayerName = "Foreground";
         sr.sortingOrder = 3;
-
-        selecteddPlayer = gameObject.GetComponent<Player>();
-        // }
     }
 
     public void PauseGame()
@@ -129,7 +135,7 @@ public class GameplayController : MonoBehaviour
         DeathController dc = GetComponent<DeathController>();
         GameData data = GameController.instance.Data;
 
-        selecteddPlayer.FinishLevel();
+        player.GetComponent<Player>().FinishLevel();
         HudCanvas.SetActive(false);
         resultCanvas.SetActive(true);
 

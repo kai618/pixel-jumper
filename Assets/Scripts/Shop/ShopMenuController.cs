@@ -54,7 +54,7 @@ public class ShopMenuController : MonoBehaviour
             yesBtn.onClick.RemoveAllListeners();
             noBtn.onClick.RemoveAllListeners();
 
-            contentItem.text = "BUY " + title.ToUpper();
+            contentItem.text = "UNLOCK " + title.ToUpper();
             contentPrice.text = "FOR " + price.ToString() + " COINS?";
 
             yesBtn.onClick.AddListener(() =>
