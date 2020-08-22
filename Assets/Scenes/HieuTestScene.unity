@@ -3218,6 +3218,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 635905206712922649, guid: 36429fe6e4a4d654497a4db4ecfb3af7,
         type: 3}
+    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
+        type: 3}
+      propertyPath: PinkMan
+      value: 
+      objectReference: {fileID: 2595715257408255145, guid: 7059c28f957e9254db9e1ecdcea7dd9f,
+        type: 3}
     - target: {fileID: 8075461140016582154, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
       propertyPath: playerStartPos.x

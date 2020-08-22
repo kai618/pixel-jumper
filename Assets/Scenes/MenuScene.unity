@@ -2263,7 +2263,7 @@ MonoBehaviour:
     type: 3}
   VirtualGuy: {fileID: 635905206712922649, guid: 36429fe6e4a4d654497a4db4ecfb3af7,
     type: 3}
-  PinkMan: {fileID: 7961539854842552331, guid: d50e6484d57f589478525ae83ccae204, type: 3}
+  PinkMan: {fileID: 2595715257408255145, guid: 7059c28f957e9254db9e1ecdcea7dd9f, type: 3}
 --- !u!1001 &1287539550
 PrefabInstance:
   m_ObjectHideFlags: 0

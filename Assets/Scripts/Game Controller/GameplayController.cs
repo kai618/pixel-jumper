@@ -50,7 +50,7 @@ public class GameplayController : MonoBehaviour
         }
         else if (GameController.instance.Data.SelectedSkin == 2)
         {
-            player = Instantiate(NinjaFrog, levelInfo.playerStartPos, Quaternion.identity);
+            player = Instantiate(PinkMan, levelInfo.playerStartPos, Quaternion.identity);
         }
 
         player.name = "Player";
