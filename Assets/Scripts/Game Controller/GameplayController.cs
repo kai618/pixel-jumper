@@ -138,7 +138,7 @@ public class GameplayController : MonoBehaviour
 
         data.MoneyTotal += cc.levelMoneySum;
         data.DeathCount += dc.levelDeathCount;
-        data.ReachedLevel = levelInfo.level;
+        data.ReachedLevel = levelInfo.level + 1;
         GameController.instance.PersistData();
     }
 }
