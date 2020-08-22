@@ -2,55 +2,112 @@
 using UnityEngine.SceneManagement;
 using System.Threading.Tasks;
 using System.Collections;
+using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
-#pragma warning disable 0649
-    [SerializeField] private GameObject player;
-    [SerializeField] private GameObject menuPanel;
-    [SerializeField] private GameObject levelPanel;
-#pragma warning disable 0649
+    public GameObject menuPanel;
+    public GameObject levelPanel;
 
     private MenuBackground menuBackground;
-    private Player playerScript;
+
+    public GameObject selector;
+
+    public GameObject NinjaFrog;
+    public GameObject VirtualGuy;
+    public GameObject PinkMan;
 
     void Awake()
     {
         menuBackground = GameObject.Find("Background").GetComponent<MenuBackground>();
-        playerScript = player.GetComponent<Player>();
     }
 
     void Start()
     {
-        AwakePlayer();
+        AwakeSelectedHero();
     }
 
-    private async void AwakePlayer()
+    private void AwakeSelectedHero()
+    {
+        Vector2 startPos = Vector2.zero;
+
+        int skinCount = 1;
+        bool[] skins = GameController.instance.Data.BoughtSkins;
+        foreach (bool s in skins)
+        {
+            if (s) skinCount++;
+        }
+
+        // make the skin row look symmetric
+        // if (skinCount % 2 == 0) startPos.x += -0.95f;
+
+        AwakeNinjaFrog(startPos);
+        if (skins[0]) AwakeVirtualGuy(startPos + new Vector2(-1.9f, -1));
+        if (skins[1]) AwakePinkMan(startPos + new Vector2(1.9f, -0.5f));
+
+    }
+
+    private async void AwakeNinjaFrog(Vector2 pos)
     {
         try
         {
             await Task.Delay(500);
-            player.SetActive(true);
+            GameObject frog = Instantiate(NinjaFrog, pos, Quaternion.identity);
+            frog.name = "Ninja Frog";
 
             await Task.Delay(2000);
-            playerScript.SetRun(true);
+            frog.GetComponent<Player>().SetRun(true);
 
-            menuBackground.rotating = true;
-            StartCoroutine(MakePlayerJump());
+            menuBackground.scrolling = true;
+            StartCoroutine(MakePlayerJump(frog));
+        }
+        catch { }
+    }
+    private async void AwakeVirtualGuy(Vector2 pos)
+    {
+        try
+        {
+            await Task.Delay(700);
+
+            GameObject guy = Instantiate(VirtualGuy, pos, Quaternion.identity);
+            guy.name = "Virtual Guy";
+
+            await Task.Delay(1800);
+            guy.GetComponent<Player>().SetRun(true);
+
+            StartCoroutine(MakePlayerJump(guy));
         }
         catch { }
     }
 
-    private IEnumerator MakePlayerJump()
+    private async void AwakePinkMan(Vector2 pos)
     {
-        float duration = Random.Range(6, 8);
+        try
+        {
+            await Task.Delay(900);
+
+            GameObject man = Instantiate(PinkMan, pos, Quaternion.identity);
+            man.name = "Pink Man";
+
+            await Task.Delay(1600);
+            man.GetComponent<Player>().SetRun(true);
+
+            StartCoroutine(MakePlayerJump(man));
+        }
+        catch { }
+    }
+
+    private IEnumerator MakePlayerJump(GameObject player)
+    {
+        Player playerScript = player.GetComponent<Player>();
+        float duration = Random.Range(4, 8);
         yield return new WaitForSeconds(duration);
 
-        float distanceY = Random.Range(1f, 1.5f);
+        float distanceY = Random.Range(1f, 1.7f);
         Jump jump = playerScript.GenerateJump(new Vector2(0, distanceY));
         playerScript.SetJump(jump);
 
-        StartCoroutine(MakePlayerJump());
+        StartCoroutine(MakePlayerJump(player));
     }
 
     public void ToLevelPanel()
@@ -58,6 +115,7 @@ public class MainMenuController : MonoBehaviour
         AudioController.instance.PlaySelectSFX();
         menuPanel.SetActive(false);
         levelPanel.SetActive(true);
+        selector.SetActive(true);
     }
 
     public void ToMenuPanel()
@@ -65,6 +123,7 @@ public class MainMenuController : MonoBehaviour
         AudioController.instance.PlaySelectSFX();
         menuPanel.SetActive(true);
         levelPanel.SetActive(false);
+        selector.SetActive(false);
     }
 
     public void ToLevel01()
@@ -72,10 +131,20 @@ public class MainMenuController : MonoBehaviour
         AudioController.instance.PlaySelectSFX();
         SceneManager.LoadScene("HieuTestScene");
     }
+    public void ToLevel02()
+    {
+        AudioController.instance.PlaySelectSFX();
+        SceneManager.LoadScene("Level_2");
+    }
+
+    public void ToLevel03()
+    {
+
+    }
 
     public void ToShop()
     {
         AudioController.instance.PlaySelectSFX();
-        Debug.Log("Shop");
+        SceneManager.LoadScene("ShopScene");
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Coin : Collectible
 {
-    public readonly new int moneyValue = 5;
+    public new int moneyValue = 5;
 
     new void Start()
     {

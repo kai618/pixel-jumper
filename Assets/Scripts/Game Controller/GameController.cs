@@ -22,8 +22,8 @@ public class GameController : MonoBehaviour
         else
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
             instance.FetchData();
+            DontDestroyOnLoad(gameObject);
         }
     }
 
@@ -53,6 +53,13 @@ public class GameController : MonoBehaviour
 
             BinaryFormatter bf = new BinaryFormatter();
             Data = (GameData)bf.Deserialize(file);
+
+            // if a file exists, set firstRun to false
+            if (Data.FirstRun)
+            {
+                Data.FirstRun = false;
+            }
+
             Debug.Log("Data Loaded");
         }
 #pragma warning disable 0168
@@ -63,11 +70,8 @@ public class GameController : MonoBehaviour
 #pragma warning disable 0168
         finally
         {
-            if (file != null)
-            {
-                file.Close();
-                PersistData();
-            }
+            if (file != null) file.Close();
+            PersistData();
         }
     }
 
@@ -98,21 +102,31 @@ public class GameData
 {
     public bool FirstRun { get; set; }
     public bool AudioEnabled { get; set; }
-    public int SelectedPlayer { get; set; }
+    public int SelectedSkin { get; set; }
 
     public int MoneyTotal { get; set; }
-    public int deathCount { get; set; }
-    public int GameLevel { get; set; }
-    public bool[] BoughtItems { get; set; }
+    public int DeathCount { get; set; }
+
+    private int reachedLevel;
+    public int ReachedLevel
+    {
+        get { return reachedLevel; }
+        set
+        {
+            if (value > reachedLevel) reachedLevel = value;
+        }
+    }
+
+    public bool[] BoughtSkins { get; set; }
 
     public GameData()
     {
         FirstRun = true;
         AudioEnabled = true;
-        SelectedPlayer = 0;
+        SelectedSkin = 0;
         MoneyTotal = 0;
-        deathCount = 0;
-        GameLevel = 0;
-        BoughtItems = new bool[10];
+        DeathCount = 0;
+        ReachedLevel = 1;
+        BoughtSkins = new bool[2] { false, false };
     }
 }

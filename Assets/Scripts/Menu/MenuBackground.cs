@@ -6,7 +6,7 @@ public class MenuBackground : MonoBehaviour
 {
     private Renderer quad1, quad2, quad3;
 
-    public bool rotating { get; set; } = false;
+    public bool scrolling { get; set; } = false;
 
     void Start()
     {
@@ -17,7 +17,7 @@ public class MenuBackground : MonoBehaviour
 
     void LateUpdate()
     {
-        if (rotating) MoveRightToLeft();
+        if (scrolling) MoveRightToLeft();
     }
 
     private void MoveRightToLeft()

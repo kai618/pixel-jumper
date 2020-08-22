@@ -7,16 +7,16 @@ public class AudioController : MonoBehaviour
 {
     public static AudioController instance;
 
-    public Sound[] sounds = SetSoundName();
+    public Audio[] audios = SetAudios();
 
-    private Sound currentMusic;
+    private Audio currentMusic;
     private float menuMusicPos = 0;
 
     void Awake()
     {
         BeSingleton();
 
-        foreach (Sound s in sounds)
+        foreach (Audio s in audios)
         {
             if (s.clip == null) continue;
             s.source = gameObject.AddComponent<AudioSource>();
@@ -26,22 +26,23 @@ public class AudioController : MonoBehaviour
             s.source.loop = s.loop;
         }
 
-        currentMusic = sounds[0];
+        currentMusic = audios[0];
     }
 
-    private static Sound[] SetSoundName()
+    private static Audio[] SetAudios()
     {
-        return new Sound[] {
-            new Sound("Menu Music"),
-            new Sound("Shop Music"),
-            new Sound("Level 01 Music"),
-            new Sound("Level 02 Music"),
-            new Sound("Select Button"), // 4
-            new Sound("Pause"),
-            new Sound("Hit"),
-            new Sound("Collide"),
-            new Sound("Collect Coin"),
-            new Sound("Jump")
+        return new Audio[] {
+            new Audio("Menu Music", 0.3f, true),
+            new Audio("Shop Music", 0.3f, true),
+            new Audio("Level 01 Music", 0.4f, true),
+            new Audio("Level 02 Music", 0.3f, true),
+            new Audio("Select Button", 0.1f), // 4
+            new Audio("Pause", 0.5f),
+            new Audio("Hit",0.8f),
+            new Audio("Collide", 0.8f, false, 2),
+            new Audio("Collect Coin", 0.5f),
+            new Audio("Jump", 0.8f),
+            new Audio("Spend Coin", 0.5f)
         };
     }
 
@@ -67,20 +68,24 @@ public class AudioController : MonoBehaviour
 
         if (scene.name == "MenuScene")
         {
-            currentMusic = sounds[0];
+            currentMusic = audios[0];
         }
-        else if (scene.name == "Level_01")
+        else if (scene.name == "ShopScene")
         {
-            currentMusic = sounds[2];
+            currentMusic = audios[1];
         }
-        else if (scene.name == "Level_02")
+        else if (scene.name == "Level_1")
         {
-            currentMusic = sounds[3];
+            currentMusic = audios[2];
+        }
+        else if (scene.name == "Level_2")
+        {
+            currentMusic = audios[3];
         }
 
         else if (scene.name == "HieuTestScene")
         {
-            currentMusic = sounds[2]; ;
+            currentMusic = audios[2]; ;
         }
 
         if (GameController.instance.Data.AudioEnabled) StartBackgroundMusic();
@@ -108,47 +113,53 @@ public class AudioController : MonoBehaviour
     {
         if (!GameController.instance.Data.AudioEnabled) return;
 
-        sounds[4].source.Play();
+        audios[4].source.Play();
     }
     public void PlayPauseSFX()
     {
         if (!GameController.instance.Data.AudioEnabled) return;
 
-        sounds[5].source.Play();
+        audios[5].source.Play();
     }
 
     public void PlayHitSFX()
     {
         if (!GameController.instance.Data.AudioEnabled) return;
 
-        sounds[6].source.Play();
+        audios[6].source.Play();
     }
     public void PlayCollideSFX()
     {
         if (!GameController.instance.Data.AudioEnabled) return;
-        if (sounds[7].source.isPlaying) return;
-        if (sounds[9].source.isPlaying) sounds[9].source.Stop();
+        if (audios[7].source.isPlaying) return;
+        if (audios[9].source.isPlaying) audios[9].source.Stop();
 
-        sounds[7].source.Play();
+        audios[7].source.Play();
     }
     public void PlayCollectCoinSFX()
     {
         if (!GameController.instance.Data.AudioEnabled) return;
-        if (sounds[8].source.isPlaying) return;
+        if (audios[8].source.isPlaying) return;
 
-        sounds[8].source.Play();
+        audios[8].source.Play();
     }
     public void PlayJumpSFX()
     {
         if (!GameController.instance.Data.AudioEnabled) return;
         // if (sounds[9].source.isPlaying) return;
 
-        sounds[9].source.Play();
+        audios[9].source.Play();
+    }
+    public void PlaySpendCoinSFX()
+    {
+        if (!GameController.instance.Data.AudioEnabled) return;
+
+        audios[10].source.Play();
     }
 }
 
 [Serializable]
-public class Sound
+public class Audio
 {
     [HideInInspector]
     public string name;
@@ -160,8 +171,11 @@ public class Sound
     [HideInInspector]
     public AudioSource source;
 
-    public Sound(string name)
+    public Audio(string name, float volume = 1f, bool loop = false, float pitch = 1f)
     {
         this.name = name;
+        this.volume = volume;
+        this.loop = loop;
+        this.pitch = pitch;
     }
 }

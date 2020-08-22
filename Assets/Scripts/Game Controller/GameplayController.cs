@@ -6,14 +6,12 @@ using UnityEngine.UI;
 
 public class GameplayController : MonoBehaviour
 {
-#pragma warning disable 0649
-    [SerializeField] private GameObject pausePanel;
-    [SerializeField] private Button zoomInBtn;
-    [SerializeField] private Button zoomOutBtn;
+    public GameObject pausePanel;
+    public Button zoomInBtn;
+    public Button zoomOutBtn;
 
-    [SerializeField] private GameObject HudCanvas;
-    [SerializeField] private GameObject resultCanvas;
-#pragma warning disable 0649
+    public GameObject HudCanvas;
+    public GameObject resultCanvas;
 
     private TouchDetector touchDetector;
     private Camera levelCamera;
@@ -21,12 +19,13 @@ public class GameplayController : MonoBehaviour
     private readonly float maxCameraSize = 7;
     private GameObject pauseBtn;
 
-    private Player selecteddPlayer;
-
     public GameObject NinjaFrog;
-    public GameObject Astronaut;
+    public GameObject VirtualGuy;
+    public GameObject PinkMan;
 
     private LevelInfo levelInfo;
+
+    private GameObject player;
 
     void Awake()
     {
@@ -41,17 +40,23 @@ public class GameplayController : MonoBehaviour
     private void CreatePlayer()
     {
         // Debug.Log(GameController.instance.Data.SelectedPlayer);
-        // if (GameController.instance.Data.SelectedPlayer == 0)
-        // {
-        GameObject gameObject = Instantiate(NinjaFrog, levelInfo.playerStartPos, Quaternion.identity);
-        gameObject.name = "Player";
+        if (GameController.instance.Data.SelectedSkin == 0)
+        {
+            player = Instantiate(NinjaFrog, levelInfo.playerStartPos, Quaternion.identity);
+        }
+        else if (GameController.instance.Data.SelectedSkin == 1)
+        {
+            player = Instantiate(VirtualGuy, levelInfo.playerStartPos, Quaternion.identity);
+        }
+        else if (GameController.instance.Data.SelectedSkin == 2)
+        {
+            player = Instantiate(PinkMan, levelInfo.playerStartPos, Quaternion.identity);
+        }
 
-        SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>();
+        player.name = "Player";
+        SpriteRenderer sr = player.GetComponent<SpriteRenderer>();
         sr.sortingLayerName = "Foreground";
         sr.sortingOrder = 3;
-
-        selecteddPlayer = gameObject.GetComponent<Player>();
-        // }
     }
 
     public void PauseGame()
@@ -77,6 +82,16 @@ public class GameplayController : MonoBehaviour
         AudioController.instance.PlaySelectSFX();
         Time.timeScale = 1f;
         SceneManager.LoadScene("MenuScene");
+    }
+
+    public void ToNextLevel()
+    {
+        SceneManager.LoadScene(levelInfo.nextScene);
+    }
+
+    public void Replay()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void ZoomIn()
@@ -116,16 +131,20 @@ public class GameplayController : MonoBehaviour
 
     public void FinishLevel()
     {
-        selecteddPlayer.FinishLevel();
-
         CollectibleController cc = GetComponent<CollectibleController>();
         DeathController dc = GetComponent<DeathController>();
+        GameData data = GameController.instance.Data;
 
-        GameController.instance.Data.MoneyTotal += cc.levelMoneySum;
-        GameController.instance.Data.deathCount += dc.levelDeathCount;
-        GameController.instance.PersistData();
-
+        player.GetComponent<Player>().FinishLevel();
         HudCanvas.SetActive(false);
         resultCanvas.SetActive(true);
+
+        if (data.ReachedLevel <= levelInfo.level) resultCanvas.GetComponent<ResultCanvas>().ShowFirstRunText();
+        else resultCanvas.GetComponent<ResultCanvas>().ShowHNotFirstRunText();
+
+        data.MoneyTotal += cc.levelMoneySum;
+        data.DeathCount += dc.levelDeathCount;
+        data.ReachedLevel = levelInfo.level + 1;
+        GameController.instance.PersistData();
     }
 }
