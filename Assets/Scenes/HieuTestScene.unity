@@ -3186,54 +3186,6 @@ PrefabInstance:
       propertyPath: resultCanvas
       value: 
       objectReference: {fileID: 1586969063}
-    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: unfinishedRun
-      value: 
-      objectReference: {fileID: 8440146033529375330}
-    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: finishedRun
-      value: 
-      objectReference: {fileID: 8440146033529375329}
-    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: unfinishedRunText
-      value: 
-      objectReference: {fileID: 8440146033529375330}
-    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: finishedRunText
-      value: 
-      objectReference: {fileID: 8440146033529375329}
-    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: NinjaFrog
-      value: 
-      objectReference: {fileID: 7961539854842552331, guid: d50e6484d57f589478525ae83ccae204,
-        type: 3}
-    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: VirtualGuy
-      value: 
-      objectReference: {fileID: 635905206712922649, guid: 36429fe6e4a4d654497a4db4ecfb3af7,
-        type: 3}
-    - target: {fileID: 877434020534435581, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: PinkMan
-      value: 
-      objectReference: {fileID: 2595715257408255145, guid: 7059c28f957e9254db9e1ecdcea7dd9f,
-        type: 3}
-    - target: {fileID: 8075461140016582154, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: playerStartPos.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8075461140016582154, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
-        type: 3}
-      propertyPath: playerStartPos.y
-      value: 14
-      objectReference: {fileID: 0}
     - target: {fileID: 8075461141155774651, guid: 434ca6eb25bb1644ead0b20cb01c82d5,
         type: 3}
       propertyPath: m_Name
@@ -3476,11 +3428,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1662085470759897114, guid: c6b649cecbc846a4dacba8ab66287ea3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5631861355666926285, guid: c6b649cecbc846a4dacba8ab66287ea3,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3613,15 +3560,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6b649cecbc846a4dacba8ab66287ea3, type: 3}
---- !u!1 &8440146033529375329 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4310085972315830686, guid: c6b649cecbc846a4dacba8ab66287ea3,
-    type: 3}
-  m_PrefabInstance: {fileID: 8440146033529375328}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8440146033529375330 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1662085470759897114, guid: c6b649cecbc846a4dacba8ab66287ea3,
-    type: 3}
-  m_PrefabInstance: {fileID: 8440146033529375328}
-  m_PrefabAsset: {fileID: 0}

@@ -49,52 +49,53 @@ public class MainMenuController : MonoBehaviour
 
     private async void AwakeNinjaFrog(Vector2 pos)
     {
-        try
-        {
-            await Task.Delay(500);
-            GameObject frog = Instantiate(NinjaFrog, pos, Quaternion.identity);
-            frog.name = "Ninja Frog";
 
-            await Task.Delay(2000);
-            frog.GetComponent<Player>().SetRun(true);
+        await Task.Delay(500);
 
-            menuBackground.scrolling = true;
-            StartCoroutine(MakePlayerJump(frog));
-        }
-        catch { }
+        // avoid errors when switching to other scene too fast
+        if (this == null) return;
+
+        GameObject frog = Instantiate(NinjaFrog, pos, Quaternion.identity);
+        frog.name = "Ninja Frog";
+
+        await Task.Delay(2000);
+        if (this == null) return;
+
+        frog.GetComponent<Player>().SetRun(true);
+
+        menuBackground.scrolling = true;
+        StartCoroutine(MakePlayerJump(frog));
     }
     private async void AwakeVirtualGuy(Vector2 pos)
     {
-        try
-        {
-            await Task.Delay(700);
+        await Task.Delay(700);
+        if (this == null) return;
 
-            GameObject guy = Instantiate(VirtualGuy, pos, Quaternion.identity);
-            guy.name = "Virtual Guy";
+        GameObject guy = Instantiate(VirtualGuy, pos, Quaternion.identity);
+        guy.name = "Virtual Guy";
 
-            await Task.Delay(1800);
-            guy.GetComponent<Player>().SetRun(true);
+        await Task.Delay(1800);
+        if (this == null) return;
 
-            StartCoroutine(MakePlayerJump(guy));
-        }
-        catch { }
+        guy.GetComponent<Player>().SetRun(true);
+
+        StartCoroutine(MakePlayerJump(guy));
     }
 
     private async void AwakePinkMan(Vector2 pos)
     {
-        try
-        {
-            await Task.Delay(900);
+        await Task.Delay(900);
+        if (this == null) return;
 
-            GameObject man = Instantiate(PinkMan, pos, Quaternion.identity);
-            man.name = "Pink Man";
+        GameObject man = Instantiate(PinkMan, pos, Quaternion.identity);
+        man.name = "Pink Man";
 
-            await Task.Delay(1600);
-            man.GetComponent<Player>().SetRun(true);
+        await Task.Delay(1600);
+        if (this == null) return;
 
-            StartCoroutine(MakePlayerJump(man));
-        }
-        catch { }
+        man.GetComponent<Player>().SetRun(true);
+
+        StartCoroutine(MakePlayerJump(man));
     }
 
     private IEnumerator MakePlayerJump(GameObject player)
