@@ -31,12 +31,13 @@ public class MainMenuController : MonoBehaviour
     {
         Vector2 startPos = Vector2.zero;
 
-        int skinCount = 1;
         bool[] skins = GameController.instance.Data.BoughtSkins;
-        foreach (bool s in skins)
-        {
-            if (s) skinCount++;
-        }
+
+        // int skinCo unt = 1;
+        // foreach (bool s in skins)
+        // {
+        //     if (s) skinCount++;
+        // }
 
         // make the skin row look symmetric
         // if (skinCount % 2 == 0) startPos.x += -0.95f;
