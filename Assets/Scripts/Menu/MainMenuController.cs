@@ -45,12 +45,10 @@ public class MainMenuController : MonoBehaviour
         AwakeNinjaFrog(startPos);
         if (skins[0]) AwakeVirtualGuy(startPos + new Vector2(-1.9f, -1));
         if (skins[1]) AwakePinkMan(startPos + new Vector2(1.9f, -0.5f));
-
     }
 
     private async void AwakeNinjaFrog(Vector2 pos)
     {
-
         await Task.Delay(500);
 
         // avoid errors when switching to other scene too fast
