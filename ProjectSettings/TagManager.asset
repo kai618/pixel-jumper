@@ -15,6 +15,7 @@ TagManager:
   - Enemy
   - Sound
   - Trap1
+  - LimitOfPlantAttack
   layers:
   - Default
   - TransparentFX
