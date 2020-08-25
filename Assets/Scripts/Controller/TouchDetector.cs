@@ -32,49 +32,48 @@ public class TouchDetector : MonoBehaviour
     }
     private void CheckUserTouch()
     {
-        if (Input.touchCount == 1)
+        if (Input.touchCount != 1) return;
+
+        Touch touch = Input.touches[0];
+        if (touch.phase == TouchPhase.Began)
         {
-            Touch touch = Input.touches[0];
-            if (touch.phase == TouchPhase.Began)
-            {
-                // return if the user touches an Event Object such as pause btn
-                if (EventSystem.current.IsPointerOverGameObject(touch.fingerId)) return;
+            // return if the user touches an Event Object such as pause btn
+            if (EventSystem.current.IsPointerOverGameObject(touch.fingerId)) return;
 
-                // using screen point to calculate distance allows independence on the position of player
-                // this makes user able to do the trick of quick pre-jump
-                // with pre-jump feature, user can swipe beforehand to prepare for a jump in the air
-                // after player touching some collider, a curve will be drawn at once
+            // using screen point to calculate distance allows independence on the position of player
+            // this makes user able to do the trick of quick pre-jump
+            // with pre-jump feature, user can swipe beforehand to prepare for a jump in the air
+            // after player touching some collider, a curve will be drawn at once
 
-                start = Input.touches[0].position;
-                ar.SetOn(start);
-            }
-            else if (touch.phase == TouchPhase.Moved)
-            {
-                if (start.Equals(new Vector2(9999, 9999))) return;
+            start = Input.touches[0].position;
+            ar.SetOn(start);
+        }
+        else if (touch.phase == TouchPhase.Moved)
+        {
+            if (start.Equals(new Vector2(9999, 9999))) return;
 
-                Vector2 end = Input.touches[0].position;
-                distance = GetWorldDistance(start, end);
+            Vector2 end = Input.touches[0].position;
+            distance = GetWorldDistance(start, end);
 
-                jump = player.GenerateJump(distance);
-                RenderCurve();
-            }
-            else if (touch.phase == TouchPhase.Stationary)
-            {
-                if (distance.Equals(Vector2.zero)) return;
+            jump = player.GenerateJump(distance);
+            RenderCurve();
+        }
+        else if (touch.phase == TouchPhase.Stationary)
+        {
+            if (distance.Equals(Vector2.zero)) return;
 
-                jump = player.GenerateJump(distance);
-                RenderCurve();
-            }
-            else if (touch.phase == TouchPhase.Ended)
-            {
-                if (jump != null) player.SetJump(jump);
+            jump = player.GenerateJump(distance);
+            RenderCurve();
+        }
+        else if (touch.phase == TouchPhase.Ended)
+        {
+            if (jump != null) player.SetJump(jump);
 
-                Reset();
-            }
-            else if (touch.phase == TouchPhase.Canceled)
-            {
-                Reset();
-            }
+            Reset();
+        }
+        else if (touch.phase == TouchPhase.Canceled)
+        {
+            Reset();
         }
     }
 

@@ -30,7 +30,7 @@ public class Selector : MonoBehaviour
             selectorBtns[0].onClick.AddListener(() => { OnSelectSkin(0); });
 
             int selectedPlayer = GameController.instance.Data.SelectedSkin;
-            Debug.Log(GameController.instance.Data.SelectedSkin);
+            // Debug.Log(GameController.instance.Data.SelectedSkin);
             selectorBtns[selectedPlayer].image.color = visibleColor;
         }
     }
@@ -38,7 +38,7 @@ public class Selector : MonoBehaviour
     private void OnSelectSkin(int index)
     {
         if (index == GameController.instance.Data.SelectedSkin) return;
-        Debug.Log("changed to skin " + index);
+        // Debug.Log("changed to skin " + index);
         AudioController.instance.PlaySelectSFX();
 
         GameController.instance.Data.SelectedSkin = index;
