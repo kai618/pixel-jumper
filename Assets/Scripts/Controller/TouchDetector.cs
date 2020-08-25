@@ -37,19 +37,20 @@ public class TouchDetector : MonoBehaviour
         Touch touch = Input.touches[0];
         if (touch.phase == TouchPhase.Began)
         {
-            // return if the user touches an Event Object such as pause btn
+            // return if the user touches an Event Object such as pause btn.
             if (EventSystem.current.IsPointerOverGameObject(touch.fingerId)) return;
 
             // using screen point to calculate distance allows independence on the position of player
-            // this makes user able to do the trick of quick pre-jump
-            // with pre-jump feature, user can swipe beforehand to prepare for a jump in the air
-            // after player touching some collider, a curve will be drawn at once
+            // this makes user able to do the trick of quick pre-jump.
+            // With pre-jump feature, user can swipe beforehand to prepare for a jump in the air
+            // after player touching some collider, a curve will be drawn at once.
 
             start = Input.touches[0].position;
             ar.SetOn(start);
         }
         else if (touch.phase == TouchPhase.Moved)
         {
+            // to prevent the error when the user presses the pause button then moves the finger outside the button.
             if (start.Equals(new Vector2(9999, 9999))) return;
 
             Vector2 end = Input.touches[0].position;
