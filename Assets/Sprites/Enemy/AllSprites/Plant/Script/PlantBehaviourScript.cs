@@ -6,12 +6,13 @@ using UnityEngine;
 public class PlantBehaviourScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject Fire;
+    public GameObject FireL;
+    public GameObject FireR;
     Animator animator;
     void Start()
     {
         animator = transform.GetComponent<Animator>();
-        
+
     }
 
     // Update is called once per frame
@@ -30,9 +31,20 @@ public class PlantBehaviourScript : MonoBehaviour
     }
     void Attack()
     {
-        Vector3 v3 = transform.position;
-        v3.x += -0.2129382f;
-        v3.y += 0.03266411f;
-        Instantiate(Fire,v3, Quaternion.identity);
+        Vector2 v3 = transform.position;
+        if (transform.localScale.x > 0)
+        {
+            v3.x += -0.2129382f;
+            v3.y += 0.03266411f;
+            Instantiate(FireL, v3, Quaternion.identity);
+        }
+        else
+        {
+            v3.x -= -0.132f;
+            v3.y -= -0.058f;
+            Instantiate(FireR, v3, Quaternion.identity);
+        }
+        
+        
     }
 }

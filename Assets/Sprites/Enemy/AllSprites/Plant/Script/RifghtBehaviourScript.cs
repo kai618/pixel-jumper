@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireBehaviourScript : MonoBehaviour
+public class RifghtBehaviourScript : MonoBehaviour
 {
-    float speed = -3;
+    float speed = 3;
     GameObject fire1;
     Animator fire2;
 
@@ -23,11 +23,11 @@ public class FireBehaviourScript : MonoBehaviour
 
         if (fire2.GetBool("isDetroy"))
             Destroy(gameObject);
-        
+
     }
     void Fly()
     {
-        
+
         Vector2 v2 = transform.position;
         v2.x += Time.deltaTime * speed;
         transform.position = v2;
@@ -40,7 +40,7 @@ public class FireBehaviourScript : MonoBehaviour
         {
             Destroy(fire1);
             fire2.SetBool("isEx", true);
-            
+
         }
     }
 
