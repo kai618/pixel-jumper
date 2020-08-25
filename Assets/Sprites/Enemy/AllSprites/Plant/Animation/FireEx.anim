@@ -27,6 +27,8 @@ AnimationClip:
       value: {fileID: 21300000, guid: 9a3f967033f85304bba5fe86e2d848b4, type: 3}
     - time: 0.6
       value: {fileID: 21300000, guid: 64806e6b77c53fc4a9e8100f5b6f838f, type: 3}
+    - time: 0.8
+      value: {fileID: 21300000, guid: eeb546cab7f5b214eabcc08b2d348e97, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,12 +52,13 @@ AnimationClip:
     - {fileID: 21300000, guid: 2fb95d0ebaa03ca43bbd18787e891d27, type: 3}
     - {fileID: 21300000, guid: 9a3f967033f85304bba5fe86e2d848b4, type: 3}
     - {fileID: 21300000, guid: 64806e6b77c53fc4a9e8100f5b6f838f, type: 3}
+    - {fileID: 21300000, guid: eeb546cab7f5b214eabcc08b2d348e97, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -77,6 +80,13 @@ AnimationClip:
   m_Events:
   - time: 0.6
     functionName: Exfire
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6
+    functionName: isDetroy
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

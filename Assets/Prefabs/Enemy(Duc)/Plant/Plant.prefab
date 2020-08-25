@@ -226,7 +226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae48c2762e4c48d4d93de7955c373cf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fire: {fileID: 9029150776855928658, guid: 3b74e97e8aee35a4ebcc36e345260f34, type: 3}
+  FireL: {fileID: 5610751395485680260, guid: 3b74e97e8aee35a4ebcc36e345260f34, type: 3}
+  FireR: {fileID: 1528589508676413979, guid: 709cfd371837a49418a5cac5aac8d969, type: 3}
 --- !u!58 &916192734961024043
 CircleCollider2D:
   m_ObjectHideFlags: 0
