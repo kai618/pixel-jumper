@@ -83,11 +83,6 @@ public class AudioController : MonoBehaviour
             currentMusic = audios[3];
         }
 
-        else if (scene.name == "HieuTestScene")
-        {
-            currentMusic = audios[2]; ;
-        }
-
         if (GameController.instance.Data.AudioEnabled) StartBackgroundMusic();
     }
 

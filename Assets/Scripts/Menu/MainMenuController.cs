@@ -129,7 +129,7 @@ public class MainMenuController : MonoBehaviour
     public void ToLevel01()
     {
         AudioController.instance.PlaySelectSFX();
-        SceneManager.LoadScene("HieuTestScene");
+        SceneManager.LoadScene("Level_1");
     }
     public void ToLevel02()
     {
