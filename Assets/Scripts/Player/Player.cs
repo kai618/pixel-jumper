@@ -245,6 +245,9 @@ public class Player : MonoBehaviour
         {
             rb2d.velocity = Vector2.zero;
             SetKinematicTrue();
+            jump = null;
+            SetPlayerClinged(false);
+            SetPlayerGrounded(false);
             animator.SetTrigger("Dead");
             GetComponent<Player>().enabled = false;
         }
