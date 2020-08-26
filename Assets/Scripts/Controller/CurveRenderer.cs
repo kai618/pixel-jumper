@@ -129,6 +129,8 @@ public class CurveRenderer : MonoBehaviour
         return step;
     }
 
+    // calculate angle ranges from distance vector,
+    // from 0 to 180 degrees with postive y, or 0 to -180 degrees with negative y
     public static float CalculateAngle(Vector2 distance)
     {
         if (distance.x == 0) return 90;
@@ -148,7 +150,7 @@ public class CurveRenderer : MonoBehaviour
 
     private Vector3? GetRelativeHitPosition(Vector2 relativeStart, Vector2 relativeEnd, Vector2 origin)
     {
-        // hit every thing except the layer Player
+        // hit every thing except the layer Curve Ignore
         int layerMask = ~LayerMask.GetMask("Curve Ignore");
         RaycastHit2D hit = Physics2D.Linecast(relativeStart + origin, relativeEnd + origin, layerMask);
         if (hit.collider == null) return null;
