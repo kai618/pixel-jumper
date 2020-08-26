@@ -20,19 +20,19 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 6674197358033493788, guid: a26831e3796d4f6498e8400f4a01326b,
+      value: {fileID: 6674197358033493788, guid: 3a80e15720c6ab04294d6e199166125c,
         type: 3}
     - time: 0.2
-      value: {fileID: 1895471095193526295, guid: a26831e3796d4f6498e8400f4a01326b,
+      value: {fileID: 1895471095193526295, guid: 3a80e15720c6ab04294d6e199166125c,
         type: 3}
     - time: 0.4
-      value: {fileID: 2600889947093884545, guid: a26831e3796d4f6498e8400f4a01326b,
+      value: {fileID: 2600889947093884545, guid: 3a80e15720c6ab04294d6e199166125c,
         type: 3}
     - time: 0.6
-      value: {fileID: 2664337180663459146, guid: a26831e3796d4f6498e8400f4a01326b,
+      value: {fileID: 2664337180663459146, guid: 3a80e15720c6ab04294d6e199166125c,
         type: 3}
     - time: 0.8
-      value: {fileID: 4740742658319907719, guid: d4f2f936f814df24fb7559370c465cdc,
+      value: {fileID: 4740742658319907719, guid: 333aef401dd3ccc4eb0b42a7d26e5dee,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -53,11 +53,11 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 6674197358033493788, guid: a26831e3796d4f6498e8400f4a01326b, type: 3}
-    - {fileID: 1895471095193526295, guid: a26831e3796d4f6498e8400f4a01326b, type: 3}
-    - {fileID: 2600889947093884545, guid: a26831e3796d4f6498e8400f4a01326b, type: 3}
-    - {fileID: 2664337180663459146, guid: a26831e3796d4f6498e8400f4a01326b, type: 3}
-    - {fileID: 4740742658319907719, guid: d4f2f936f814df24fb7559370c465cdc, type: 3}
+    - {fileID: 6674197358033493788, guid: 3a80e15720c6ab04294d6e199166125c, type: 3}
+    - {fileID: 1895471095193526295, guid: 3a80e15720c6ab04294d6e199166125c, type: 3}
+    - {fileID: 2600889947093884545, guid: 3a80e15720c6ab04294d6e199166125c, type: 3}
+    - {fileID: 2664337180663459146, guid: 3a80e15720c6ab04294d6e199166125c, type: 3}
+    - {fileID: 4740742658319907719, guid: 333aef401dd3ccc4eb0b42a7d26e5dee, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -83,7 +83,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 1
+  - time: 0.8
     functionName: setIdle
     data: 
     objectReferenceParameter: {fileID: 0}
