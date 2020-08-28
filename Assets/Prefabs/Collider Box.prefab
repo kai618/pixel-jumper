@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 8323663797597205594}
   - component: {fileID: 4542713781339774883}
   m_Layer: 0
-  m_Name: Right - Cling
+  m_Name: Right - Wall
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,7 +160,7 @@ GameObject:
   m_Layer: 0
   m_Name: Collider Box
   m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 8323663799284493942}
   - component: {fileID: 7206306044454285373}
   m_Layer: 0
-  m_Name: Left - Cling
+  m_Name: Left - Wall
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

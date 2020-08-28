@@ -32,6 +32,7 @@ public class MainMenuController : MonoBehaviour
         Vector2 startPos = Vector2.zero;
 
         bool[] skins = GameController.instance.Data.BoughtSkins;
+        Debug.Log(GameController.instance.Data.BoughtSkins);
 
         // int skinCo unt = 1;
         // foreach (bool s in skins)
