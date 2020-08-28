@@ -138,7 +138,6 @@ public class Player : MonoBehaviour
         {
             SetPlayerClinged(true);
             AudioController.instance.PlayCollideSFX();
-            Debug.Log("Entered Wall");
         }
 
         else if (tag == "Spike")
@@ -158,14 +157,12 @@ public class Player : MonoBehaviour
             if (rb2d.velocity.magnitude == 0)
             {
                 SetPlayerGrounded(true);
-                Debug.Log("Touched ground while clinging on Wall");
             }
 
             // falling down while being close to the wall
             else if (rb2d.velocity.y < 0 && !Clinged)
             {
                 SetPlayerClinged(true);
-                Debug.Log("falling down");
             }
         }
     }
@@ -181,7 +178,6 @@ public class Player : MonoBehaviour
         else if (tag == "Wall")
         {
             SetPlayerClinged(false);
-            Debug.Log("Existed Wall");
         }
 
         //if (Grounded)

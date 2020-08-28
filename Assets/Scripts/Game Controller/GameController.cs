@@ -117,7 +117,7 @@ public class GameData
         }
     }
 
-    public bool[] BoughtSkins { get; set; }
+    public bool[] BoughtSkins { get; private set; }
 
     public GameData()
     {
