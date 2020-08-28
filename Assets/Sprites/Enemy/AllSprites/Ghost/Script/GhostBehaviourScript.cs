@@ -61,4 +61,5 @@ public class GhostBehaviourScript : MonoBehaviour
         chamThan.gameObject.SetActive(false);
         chamHoi.gameObject.SetActive(true);
     }
+    
 }
