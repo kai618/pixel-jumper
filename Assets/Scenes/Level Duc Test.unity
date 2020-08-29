@@ -552,7 +552,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b03b2a5438f49b04db8ec8b2dcc8316c, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &48429189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 48429188}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962612500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1619247936}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &52177651
+=======
 --- !u!4 &52177651 stripped
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: 4161543100626038, guid: 6b13e8b5789585846a705035c6ad62cd,
     type: 3}
@@ -11145,7 +11164,7 @@ PrefabInstance:
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
@@ -12080,7 +12099,7 @@ PrefabInstance:
     - target: {fileID: 1408675175838346567, guid: 0ab5642e858bbad4f8da5e0896bd37c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1408675175838346567, guid: 0ab5642e858bbad4f8da5e0896bd37c6,
         type: 3}
@@ -12727,6 +12746,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1753d53c838270d479ba970c43ad019b, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &142597417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 142597416}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532988679}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1059282994}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &147390729 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1913058808723348892, guid: 32c6902b5d48d0445ae9f27030fd8d15,
@@ -13076,6 +13113,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efbbc1a7890bb6044a8fa67db33f6ade, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &173837513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 173837512}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77411493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1684199765}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &175230593 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1288009320411553956, guid: e4ac39a4df3053a47a0a2d6ae2422edf,
@@ -13420,6 +13475,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e45c9aed6bafa964782c6325956f228f, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &195895251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 195895250}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519238309}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 255372592}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &195962627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -13762,7 +13835,7 @@ PrefabInstance:
     - target: {fileID: 4075832846333112565, guid: bbbf7e18100e0f545bfd8fa7f1fe4d86,
         type: 3}
       propertyPath: m_RootOrder
-      value: 74
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 4075832846333112565, guid: bbbf7e18100e0f545bfd8fa7f1fe4d86,
         type: 3}
@@ -14399,7 +14472,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddb716f4f4916bd49acf599e99be7b37, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &282366116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 282366115}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837584757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1721441423}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &284772423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1464536554}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1464536555}
+  m_Layer: 0
+  m_Name: Nature_props_06 (8) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &284868910
+=======
 --- !u!4 &284868910 stripped
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: 4566103046602386, guid: 36eefd045905ea840940e9553e42ce8c,
     type: 3}
@@ -14573,6 +14681,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f802a960462afea4bbce60e223b448f3, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &304039104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 304039103}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739576623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1195038285}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &305226829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14635,6 +14761,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efbde38838d036d49ab3d0ab4d323eae, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &305226830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 305226829}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935387433}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1913036946}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &308524803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
@@ -14723,6 +14867,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c91193e0f75c73949bf7928ddd6cd517, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &320749039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 320749038}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329323949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 488095989}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &322845523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14849,7 +15011,7 @@ PrefabInstance:
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
@@ -14949,6 +15111,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627b123d76dd42541b762a87c3ba8460, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &333251440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 333251439}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939194784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1775216063}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &336082158 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
@@ -15126,6 +15306,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddb716f4f4916bd49acf599e99be7b37, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &352679673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 352679672}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844219937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1343855833}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &355664958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15267,7 +15465,7 @@ PrefabInstance:
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
@@ -15480,7 +15678,11 @@ Transform:
   m_LocalScale: {x: 3.25, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 452502649}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+  m_RootOrder: 60
+=======
   m_RootOrder: 72
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &388552207
 PrefabInstance:
@@ -15903,6 +16105,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 527cab527cab11b46bec512eb84237e3, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &411947443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 411947442}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894181437}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1395522278}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &413224129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1161864057}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1161864058}
+  m_Layer: 0
+  m_Name: Nature_props_13 (2) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &414245794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 539381791}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2125788585}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &414277534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16070,6 +16322,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c60e10becc91cdc488b6f96b7aacf54a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &416623221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 416623220}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673040316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1324089841}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &417289343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -16317,7 +16587,7 @@ PrefabInstance:
     - target: {fileID: 4075832846333112565, guid: bbbf7e18100e0f545bfd8fa7f1fe4d86,
         type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 4075832846333112565, guid: bbbf7e18100e0f545bfd8fa7f1fe4d86,
         type: 3}
@@ -16502,6 +16772,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abf0bc9c105690d4c87552b83f28a432, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &427988720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 427988719}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030788580}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1953711781}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &428180999 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -16553,7 +16841,7 @@ PrefabInstance:
     - target: {fileID: 1913058808723348892, guid: 32c6902b5d48d0445ae9f27030fd8d15,
         type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 1913058808723348892, guid: 32c6902b5d48d0445ae9f27030fd8d15,
         type: 3}
@@ -16628,7 +16916,7 @@ PrefabInstance:
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
@@ -16727,6 +17015,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11a6e0e2923a1cd4d98fca27f87aea01, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &435047311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 435047310}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68866057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 611859015}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &435617771 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -16954,8 +17260,6 @@ Transform:
   m_LocalPosition: {x: -27.05123, y: 11.05814, z: -34.981834}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 692970126}
-  - {fileID: 2098506760}
   - {fileID: 1835133142}
   - {fileID: 555970044}
   - {fileID: 234504754}
@@ -17887,6 +18191,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11a6e0e2923a1cd4d98fca27f87aea01, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &492836561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 492836560}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883629974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 451827798}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &495689883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18239,6 +18561,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecba8dbba1cf5cf499ff7c730d1a58b9, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &511073921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 511073920}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502192461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 585200718}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &511798054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1572658514}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2032966393}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &513036051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1972066957}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1010960537}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &513508269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2091161492}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2091161493}
+  m_Layer: 0
+  m_Name: Nature_props_38 (1) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &515437757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18954,6 +19342,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efbbc1a7890bb6044a8fa67db33f6ade, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &539381792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 539381791}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705469317}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2125788585}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &545793251 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -19202,6 +19608,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecba8dbba1cf5cf499ff7c730d1a58b9, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &553272157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 553272156}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397539099}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1679222378}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &555970044 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
@@ -19265,7 +19689,7 @@ PrefabInstance:
     - target: {fileID: 4075832846333112565, guid: bbbf7e18100e0f545bfd8fa7f1fe4d86,
         type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 4075832846333112565, guid: bbbf7e18100e0f545bfd8fa7f1fe4d86,
         type: 3}
@@ -19573,6 +19997,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20b4923008369ef4883c3ccd4a040d1e, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &576756316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 576756315}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576311206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 236451750}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &579000585 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -20028,6 +20470,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 527cab527cab11b46bec512eb84237e3, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &609444158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 609444157}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989388818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 411702541}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &610033858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2002190864}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528217475}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &611222941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20092,6 +20568,25 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: d26f07b6b8619784cacddf6eb54abb9a, type: 3}
 --- !u!4 &611859015 stripped
 Transform:
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 611222941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736323599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 254606324}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &611859015
+Transform:
+  m_ObjectHideFlags: 0
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
   m_CorrespondingSourceObject: {fileID: 4359820681923564, guid: 11a6e0e2923a1cd4d98fca27f87aea01,
     type: 3}
   m_PrefabInstance: {fileID: 435047310}
@@ -20426,7 +20921,7 @@ PrefabInstance:
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
@@ -20687,7 +21182,7 @@ PrefabInstance:
     - target: {fileID: 5969701043301437802, guid: b30f0d942bf772749a2461adba90af54,
         type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 5969701043301437802, guid: b30f0d942bf772749a2461adba90af54,
         type: 3}
@@ -20776,6 +21271,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20b4923008369ef4883c3ccd4a040d1e, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &650628289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 650628288}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324700506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1810269738}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 51
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &653360209 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -20900,21 +21413,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8cd977e139f42d469ed6a17d33f73d2, type: 3}
---- !u!4 &692970126
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1967180633382747727, guid: dd462550f46f58f489e6445c4084710e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1967180633763716289}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994870737}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.4487705, y: 0.29886055, z: 34.981834}
-  m_LocalScale: {x: 1.9215922, y: 1.1455164, z: 1}
-  m_Children: []
-  m_Father: {fileID: 452502649}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &694390997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21381,6 +21879,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c60e10becc91cdc488b6f96b7aacf54a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &716709916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 716709915}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437303218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 316518773}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 52
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!114 &717693083 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 920029155171966274, guid: 32785b714d9670548b28a39846ca7fb5,
@@ -21718,6 +22234,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d26f07b6b8619784cacddf6eb54abb9a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &729217798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 729217797}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728593842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 342964715}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 53
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &737746235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1860261712}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1860261713}
+  m_Layer: 0
+  m_Name: Nature_props_23 (1) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &738925734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -21971,6 +22521,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b44a0eea649a1c045bcf8888f8f81050, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &749729165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 749729164}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331321381}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2063042490}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 54
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &754521378 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -22293,6 +22861,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9d33771d2468d1449907d266d3b6d46, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &764057521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 764057520}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311873144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 985700249}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 55
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &776883108 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -22691,7 +23277,7 @@ PrefabInstance:
     - target: {fileID: 4075832846333112565, guid: bbbf7e18100e0f545bfd8fa7f1fe4d86,
         type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 4075832846333112565, guid: bbbf7e18100e0f545bfd8fa7f1fe4d86,
         type: 3}
@@ -22785,6 +23371,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff2321c1e30309840845d6def31b27d4, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &800230749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 800230748}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399567973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1959248796}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 59
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &804770017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22960,6 +23564,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11a6e0e2923a1cd4d98fca27f87aea01, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &811276674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 811276673}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407806803}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 620211104}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 61
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &815354750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1995305020}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1995305021}
+  m_Layer: 0
+  m_Name: Nature_props_31 (3) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &819944287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
@@ -23011,7 +23649,7 @@ PrefabInstance:
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
@@ -23274,7 +23912,7 @@ PrefabInstance:
     - target: {fileID: 1913058808723348892, guid: 32c6902b5d48d0445ae9f27030fd8d15,
         type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 1913058808723348892, guid: 32c6902b5d48d0445ae9f27030fd8d15,
         type: 3}
@@ -23991,6 +24629,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dc93bd254f2c41479bfed68801a7bad, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &870409577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 870409576}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029631168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 612630145}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 62
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &872354152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1438226621}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1438226622}
+  m_Layer: 0
+  m_Name: Nature_props_13 (4) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &874612050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24041,7 +24713,7 @@ PrefabInstance:
     - target: {fileID: 8723644592975523682, guid: 3b08905501388f643a30f453990ff49a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8723644592975523682, guid: 3b08905501388f643a30f453990ff49a,
         type: 3}
@@ -24766,6 +25438,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f802a960462afea4bbce60e223b448f3, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &935088118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 935088117}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389401994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 325370368}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 63
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &935387433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 305226829}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 305226830}
+  m_Layer: 0
+  m_Name: Nature_props_26 (1) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &937062518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 435047310}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 611859015}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &939194784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 333251439}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 333251440}
+  m_Layer: 0
+  m_Name: Nature_props_14 (5) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &942757465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24828,6 +25566,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efbde38838d036d49ab3d0ab4d323eae, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &942757466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 942757465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594479747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2068149902}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 64
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &943531045
 Transform:
   m_ObjectHideFlags: 0
@@ -24841,7 +25597,11 @@ Transform:
   m_LocalScale: {x: 3.25, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 452502649}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+  m_RootOrder: 85
+=======
   m_RootOrder: 86
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &944131937
 Transform:
@@ -24856,7 +25616,7 @@ Transform:
   m_LocalScale: {x: 3.25, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 452502649}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &951576039 stripped
 Transform:
@@ -25025,7 +25785,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11a6e0e2923a1cd4d98fca27f87aea01, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &983993471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 983993470}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440565532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2124391428}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 66
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &985700249
+=======
 --- !u!4 &985700249 stripped
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: 4817319495467754, guid: a9d33771d2468d1449907d266d3b6d46,
     type: 3}
@@ -25104,6 +25883,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11a6e0e2923a1cd4d98fca27f87aea01, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &989287955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 989287954}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222673668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1282500724}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 70
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &989388818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 609444157}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 609444158}
+  m_Layer: 0
+  m_Name: Nature_props_13 (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &991062027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25510,7 +26323,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9d33771d2468d1449907d266d3b6d46, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1008890229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1008890228}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350978918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1596549739}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 71
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1010165433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1629758094}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629758095}
+  m_Layer: 0
+  m_Name: Nature_props_27 (1) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1010960537
+=======
 --- !u!4 &1010960537 stripped
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: 4905157291260560, guid: 627b123d76dd42541b762a87c3ba8460,
     type: 3}
@@ -25541,7 +26389,7 @@ Transform:
   m_LocalScale: {x: 3.2658315, y: 3.0194533, z: 1}
   m_Children: []
   m_Father: {fileID: 452502649}
-  m_RootOrder: 29
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1016327814
 PrefabInstance:
@@ -25720,6 +26568,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e45c9aed6bafa964782c6325956f228f, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1031650208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1031650207}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926895434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1779178015}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 73
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1035796388 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -26077,7 +26943,7 @@ PrefabInstance:
     - target: {fileID: 1288009320411553956, guid: e4ac39a4df3053a47a0a2d6ae2422edf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 1288009320411553956, guid: e4ac39a4df3053a47a0a2d6ae2422edf,
         type: 3}
@@ -26156,7 +27022,7 @@ PrefabInstance:
     - target: {fileID: 1288009320411553956, guid: e4ac39a4df3053a47a0a2d6ae2422edf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1288009320411553956, guid: e4ac39a4df3053a47a0a2d6ae2422edf,
         type: 3}
@@ -26488,6 +27354,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11a6e0e2923a1cd4d98fca27f87aea01, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1079900909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1079900908}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292670684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 987789461}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 74
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1084822560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26814,7 +27698,7 @@ PrefabInstance:
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
@@ -26900,6 +27784,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b13e8b5789585846a705035c6ad62cd, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1105625589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1105625588}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065099894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 52177651}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 75
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1107318988
 Transform:
   m_ObjectHideFlags: 0
@@ -26913,7 +27815,11 @@ Transform:
   m_LocalScale: {x: 3.2658315, y: 3.0194533, z: 1}
   m_Children: []
   m_Father: {fileID: 452502649}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+  m_RootOrder: 93
+=======
   m_RootOrder: 82
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1107992287
 PrefabInstance:
@@ -27456,6 +28362,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9d33771d2468d1449907d266d3b6d46, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1137983443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1137983442}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310477674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1174043596}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 76
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1141494517 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -27978,6 +28902,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 527cab527cab11b46bec512eb84237e3, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1161864058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1161864057}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413224129}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1586385555}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 77
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1162338387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 764057520}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 985700249}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1166483435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1919638815}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919638816}
+  m_Layer: 0
+  m_Name: Nature_props_13 (3) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1173033198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28505,6 +29479,41 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c60e10becc91cdc488b6f96b7aacf54a, type: 3}
 --- !u!4 &1195038285 stripped
 Transform:
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1192253668}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233553191}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 405785667}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 78
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1195038284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 304039103}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1195038285}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1195038285
+Transform:
+  m_ObjectHideFlags: 0
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
   m_CorrespondingSourceObject: {fileID: 4919723900486086, guid: f802a960462afea4bbce60e223b448f3,
     type: 3}
   m_PrefabInstance: {fileID: 304039103}
@@ -29190,6 +30199,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efbbc1a7890bb6044a8fa67db33f6ade, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1210020710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1210020709}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002105064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 951576039}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 79
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1212637283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29678,7 +30705,7 @@ PrefabInstance:
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
@@ -29784,6 +30811,25 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c91193e0f75c73949bf7928ddd6cd517, type: 3}
 --- !u!4 &1268088798 stripped
 Transform:
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1265399464}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876988687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 46847030}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 80
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1268088798
+Transform:
+  m_ObjectHideFlags: 0
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
   m_CorrespondingSourceObject: {fileID: 4887293667391826, guid: 20b4923008369ef4883c3ccd4a040d1e,
     type: 3}
   m_PrefabInstance: {fileID: 1303399231}
@@ -29974,6 +31020,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d26f07b6b8619784cacddf6eb54abb9a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1273896831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1273896830}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523871346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 203529543}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 81
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1276096976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30478,7 +31542,7 @@ PrefabInstance:
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
@@ -30572,6 +31636,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20b4923008369ef4883c3ccd4a040d1e, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1303399232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1303399231}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703304947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1268088798}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 83
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1309890069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1634772513}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1634772514}
+  m_Layer: 0
+  m_Name: Nature_props_28 (4) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1310477674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1137983442}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1137983443}
+  m_Layer: 0
+  m_Name: Nature_props_24 (2) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1319924302 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -30628,7 +31742,7 @@ PrefabInstance:
     - target: {fileID: 5969701043301437802, guid: b30f0d942bf772749a2461adba90af54,
         type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 5969701043301437802, guid: b30f0d942bf772749a2461adba90af54,
         type: 3}
@@ -31268,7 +32382,11 @@ Transform:
   m_LocalScale: {x: 3.265831, y: 3.019453, z: 1}
   m_Children: []
   m_Father: {fileID: 452502649}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+  m_RootOrder: 50
+=======
   m_RootOrder: 37
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1345873949
 SpriteRenderer:
@@ -31474,7 +32592,7 @@ PrefabInstance:
     - target: {fileID: 1408675175838346567, guid: 0ab5642e858bbad4f8da5e0896bd37c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1408675175838346567, guid: 0ab5642e858bbad4f8da5e0896bd37c6,
         type: 3}
@@ -31657,6 +32775,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 527cab527cab11b46bec512eb84237e3, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1373086647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1373086646}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579083639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1346987955}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 84
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1375582855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32072,7 +33208,7 @@ PrefabInstance:
     - target: {fileID: 1288009320411553956, guid: e4ac39a4df3053a47a0a2d6ae2422edf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1288009320411553956, guid: e4ac39a4df3053a47a0a2d6ae2422edf,
         type: 3}
@@ -32264,6 +33400,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d26f07b6b8619784cacddf6eb54abb9a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1405004942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1405004941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115503789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1794580742}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 86
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1406438749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32881,6 +34035,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c91193e0f75c73949bf7928ddd6cd517, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1434546705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1434546704}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915667002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2045990223}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 87
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1437303218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 716709915}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 716709916}
+  m_Layer: 0
+  m_Name: Nature_props_28 (2) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1438226621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32951,6 +34139,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 527cab527cab11b46bec512eb84237e3, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1438226622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1438226621}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872354152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 533543211}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 88
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1439909786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2133271216}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2133271217}
+  m_Layer: 0
+  m_Name: Nature_props_14 (1) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1440565532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 983993470}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 983993471}
+  m_Layer: 0
+  m_Name: Nature_props_29 (1) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1442028907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33171,6 +34409,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecba8dbba1cf5cf499ff7c730d1a58b9, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1464536555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1464536554}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284772423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1682471414}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 89
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1467948871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33326,6 +34582,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627b123d76dd42541b762a87c3ba8460, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1474726934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1474726933}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510011638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1952856037}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 90
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1478794765 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
@@ -33670,6 +34944,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efbde38838d036d49ab3d0ab4d323eae, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1498831880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1498831879}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971501617}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1607799002}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 91
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1501560068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2048167778}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1572982870}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1503515293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34225,7 +35533,7 @@ PrefabInstance:
     - target: {fileID: 1913058808723348892, guid: 32c6902b5d48d0445ae9f27030fd8d15,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1913058808723348892, guid: 32c6902b5d48d0445ae9f27030fd8d15,
         type: 3}
@@ -34511,7 +35819,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecba8dbba1cf5cf499ff7c730d1a58b9, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1572658515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1572658514}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443727172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2032966393}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 92
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1572982870
+=======
 --- !u!4 &1572982870 stripped
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: 4231372598769982, guid: ecba8dbba1cf5cf499ff7c730d1a58b9,
     type: 3}
@@ -34587,6 +35914,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627b123d76dd42541b762a87c3ba8460, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1575710242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1575710241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303121461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1900054556}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 94
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1576311206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 576756315}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576756316}
+  m_Layer: 0
+  m_Name: Nature_props_17 (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1577332740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34654,6 +36015,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c60e10becc91cdc488b6f96b7aacf54a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1577332741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1577332740}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137175993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 199598074}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 95
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1579083639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1373086646}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1373086647}
+  m_Layer: 0
+  m_Name: Nature_props_13 (1) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1581090571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34973,7 +36368,7 @@ PrefabInstance:
     - target: {fileID: 5969701043301437802, guid: b30f0d942bf772749a2461adba90af54,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5969701043301437802, guid: b30f0d942bf772749a2461adba90af54,
         type: 3}
@@ -35143,7 +36538,7 @@ PrefabInstance:
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
@@ -35241,6 +36636,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d26f07b6b8619784cacddf6eb54abb9a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1598238172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1598238171}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555429198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 343057002}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 96
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1598450350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3813529502496956739, guid: b3811dac333c53c4f95abfd18ad5eae1,
@@ -35725,6 +37138,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1753d53c838270d479ba970c43ad019b, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1629758095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1629758094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010165433}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1015847289}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 97
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1630937053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36037,6 +37468,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c60e10becc91cdc488b6f96b7aacf54a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1634772514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1634772513}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309890069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 894344410}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 98
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1 &1644829501
 GameObject:
   m_ObjectHideFlags: 0
@@ -36325,6 +37774,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c0e2e550619d74592a6882db6d033d, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1672443077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1672443076}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98119169}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1197736284}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 99
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1673040316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 416623220}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416623221}
+  m_Layer: 0
+  m_Name: Nature_props_28 (1) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1673471728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36472,6 +37955,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d26f07b6b8619784cacddf6eb54abb9a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1674751420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1674751419}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864559961}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 164414577}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 100
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1675444514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -36775,7 +38276,7 @@ PrefabInstance:
     - target: {fileID: 1408675175838346567, guid: 0ab5642e858bbad4f8da5e0896bd37c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 1408675175838346567, guid: 0ab5642e858bbad4f8da5e0896bd37c6,
         type: 3}
@@ -37187,6 +38688,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc611b86da4eaa746b7ddd29c128306c, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!1 &1713600575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1031650207}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1779178015}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+=======
 --- !u!1 &1710845233
 GameObject:
   m_ObjectHideFlags: 0
@@ -37200,11 +38714,30 @@ GameObject:
   - component: {fileID: 1710845234}
   m_Layer: 0
   m_Name: Nature_props_06 (2)
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!1 &1716008390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2140752106}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2140752107}
+  m_Layer: 0
+  m_Name: Nature_props_06 (4) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
 --- !u!212 &1710845234
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37256,6 +38789,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1716069824 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -37476,7 +39010,7 @@ PrefabInstance:
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
@@ -37571,6 +39105,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c60e10becc91cdc488b6f96b7aacf54a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1720236365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1720236364}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632865923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1045567718}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 101
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1721061479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38131,7 +39683,7 @@ PrefabInstance:
     - target: {fileID: 5959957827858611306, guid: 08253fb6f3b44e343a94cceb147a673f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5959957827858611306, guid: 08253fb6f3b44e343a94cceb147a673f,
         type: 3}
@@ -38220,6 +39772,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b03b2a5438f49b04db8ec8b2dcc8316c, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1744036283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1744036282}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592274771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 716101451}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 102
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1750866246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38628,6 +40198,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecba8dbba1cf5cf499ff7c730d1a58b9, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1752600835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1752600834}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234615493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 992027192}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 103
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1752891882 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 936894629914068439, guid: e8cd977e139f42d469ed6a17d33f73d2,
@@ -38902,7 +40490,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20b4923008369ef4883c3ccd4a040d1e, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1774105896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1774105895}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239206498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 272022392}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 104
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1775216063
+=======
 --- !u!4 &1775216063 stripped
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: 4905157291260560, guid: 627b123d76dd42541b762a87c3ba8460,
     type: 3}
@@ -39240,7 +40847,7 @@ PrefabInstance:
     - target: {fileID: 5959957827858611306, guid: 08253fb6f3b44e343a94cceb147a673f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5959957827858611306, guid: 08253fb6f3b44e343a94cceb147a673f,
         type: 3}
@@ -40105,6 +41712,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45570b5f63ba4b64590574d72f44d18b, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1832365202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1832365201}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089564510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1012700234}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 105
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1832471391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40517,6 +42142,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f802a960462afea4bbce60e223b448f3, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1840688820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1840688819}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289756761}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1952051709}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 106
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1843453791 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
@@ -40662,7 +42305,7 @@ PrefabInstance:
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
@@ -40860,6 +42503,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b44a0eea649a1c045bcf8888f8f81050, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1860261713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1860261712}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737746235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2015094383}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 107
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1863674627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40922,6 +42583,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dc93bd254f2c41479bfed68801a7bad, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1863674628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1863674627}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34298910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1486872021}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 108
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1864559961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1674751419}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1674751420}
+  m_Layer: 0
+  m_Name: Nature_props_25 (4) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1866779531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40992,6 +42687,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72335d0f97cbdd4abec38471223522a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1866779532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1866779531}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737973414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 339197826}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 109
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1870542553 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7380270413925632750, guid: ae424d3c06ef99a4682348f18d880f77,
@@ -41043,7 +42756,7 @@ PrefabInstance:
     - target: {fileID: 1288009320411553956, guid: e4ac39a4df3053a47a0a2d6ae2422edf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1288009320411553956, guid: e4ac39a4df3053a47a0a2d6ae2422edf,
         type: 3}
@@ -41154,7 +42867,7 @@ PrefabInstance:
     - target: {fileID: 4075832846333112565, guid: bbbf7e18100e0f545bfd8fa7f1fe4d86,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4075832846333112565, guid: bbbf7e18100e0f545bfd8fa7f1fe4d86,
         type: 3}
@@ -41810,6 +43523,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 527cab527cab11b46bec512eb84237e3, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1919638816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1919638815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166483435}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2021404681}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 110
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!4 &1920273535 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7380270413925632750, guid: ae424d3c06ef99a4682348f18d880f77,
@@ -42066,6 +43797,41 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 982283eb324406648881132bc4ba92b1, type: 3}
 --- !u!4 &1952051709 stripped
 Transform:
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1950598471}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193889821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1858609390}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 111
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1950947153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2133271216}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1731421012}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1952051709
+Transform:
+  m_ObjectHideFlags: 0
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
   m_CorrespondingSourceObject: {fileID: 4919723900486086, guid: f802a960462afea4bbce60e223b448f3,
     type: 3}
   m_PrefabInstance: {fileID: 1840688819}
@@ -42127,7 +43893,7 @@ PrefabInstance:
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 2369672693886774115, guid: 7daf3efcba297b94d852149381bef3d7,
         type: 3}
@@ -42227,6 +43993,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627b123d76dd42541b762a87c3ba8460, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1959517042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1959517041}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847101433}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 805197912}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 112
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1962285357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42383,6 +44167,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36eefd045905ea840940e9553e42ce8c, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1965077871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1965077870}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041298313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 284868910}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 113
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1967850137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42547,6 +44349,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627b123d76dd42541b762a87c3ba8460, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1972066958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1972066957}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37020440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1010960537}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 114
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1974195141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42961,7 +44781,7 @@ PrefabInstance:
     - target: {fileID: 1913058808723348892, guid: 32c6902b5d48d0445ae9f27030fd8d15,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1913058808723348892, guid: 32c6902b5d48d0445ae9f27030fd8d15,
         type: 3}
@@ -42985,75 +44805,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c6902b5d48d0445ae9f27030fd8d15, type: 3}
---- !u!1 &1994870737
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1967180634533450512, guid: dd462550f46f58f489e6445c4084710e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1967180633763716289}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 692970126}
-  - component: {fileID: 1994870738}
-  m_Layer: 0
-  m_Name: Nature_props_06 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1994870738
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1967180634533450515, guid: dd462550f46f58f489e6445c4084710e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1967180633763716289}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994870737}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 4294967295
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300014, guid: 516352dd3de2bd94790d6e8b5ef3e69c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1001 &1995305020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43121,6 +44872,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f802a960462afea4bbce60e223b448f3, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &1995305021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1995305020}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815354750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 739268460}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 115
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &1998423680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43277,6 +45046,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72335d0f97cbdd4abec38471223522a, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &2002190865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2002190864}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411610322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1528217475}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 116
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &2003897651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43722,7 +45509,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9d33771d2468d1449907d266d3b6d46, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &2019542023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2019542022}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148384610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1069601372}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 117
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2021404681
+=======
 --- !u!4 &2021404681 stripped
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: 4359236280255050, guid: 527cab527cab11b46bec512eb84237e3,
     type: 3}
@@ -44312,6 +46118,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecba8dbba1cf5cf499ff7c730d1a58b9, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &2048167779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2048167778}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360873819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1572982870}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 118
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &2052155037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44563,7 +46387,7 @@ PrefabInstance:
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 69
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 3272502031655609265, guid: ba4f1015635058b4b9bbec87453411ca,
         type: 3}
@@ -44814,6 +46638,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c91193e0f75c73949bf7928ddd6cd517, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &2091161493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2091161492}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513508269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1563257878}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 119
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &2096126013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45002,21 +46844,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8cd977e139f42d469ed6a17d33f73d2, type: 3}
---- !u!4 &2098506760
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6102206283847894523, guid: add6817ee6d01cc4884f001881cc939f,
-    type: 3}
-  m_PrefabInstance: {fileID: 6102206283664697843}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710845233}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.89, y: -0.86, z: 34.981834}
-  m_LocalScale: {x: 2.0024352, y: 2.0347729, z: 1}
-  m_Children: []
-  m_Father: {fileID: 452502649}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2098965918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45903,6 +47730,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627b123d76dd42541b762a87c3ba8460, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &2133271217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2133271216}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439909786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1731421012}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 120
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
 --- !u!1001 &2140752106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45973,6 +47818,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecba8dbba1cf5cf499ff7c730d1a58b9, type: 3}
+<<<<<<< HEAD:Assets/Scenes/DucTestScene/Level_2.unity
+--- !u!4 &2140752107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2140752106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716008390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 89190454}
+  m_Father: {fileID: 452502649}
+  m_RootOrder: 121
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2141708539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 716709915}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 316518773}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2144295455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1273896830}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203529543}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+=======
 --- !u!1001 &1967180633763716289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46111,3 +48005,4 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: add6817ee6d01cc4884f001881cc939f, type: 3}
+>>>>>>> ef3cf4307952fd9376c4bd058a262254e2914fcb:Assets/Scenes/Level Duc Test.unity
