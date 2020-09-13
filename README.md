@@ -21,7 +21,7 @@ https://drive.google.com/file/d/1f48TVw-iy-IDvmxMq-ZqXU11xYDmH6sB
 |:--:|
 |![](https://github.com/kai618/pixel-jumper/blob/master/Demos/git-readme/player-control-grounded.jpg)|
 
-| Level Scene (Clinged Player) |
+| Level Scene (Clinging Player) |
 |:--:|
 |![](https://github.com/kai618/pixel-jumper/blob/master/Demos/git-readme/player-control-clinged.jpg)|
 
